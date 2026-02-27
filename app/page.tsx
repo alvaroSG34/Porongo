@@ -11,7 +11,7 @@ export default function HomePage() {
   const content = getLandingContent();
 
   return (
-    <div className="desktop-canvas">
+    <div className="desktop-canvas landing-pop">
       <Navbar nav={content.nav} />
       <main>
         <HeroSection hero={content.hero} />

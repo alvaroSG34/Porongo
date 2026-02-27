@@ -3,7 +3,7 @@ import type { ButtonHTMLAttributes, ReactNode } from "react";
 import { cn } from "@/shared/lib/cn";
 
 const buttonVariants = cva(
-  "focus-ring inline-flex min-h-11 items-center justify-center rounded-full px-7 py-3 text-[16px] font-semibold transition-transform duration-200 hover:-translate-y-0.5",
+  "focus-ring inline-flex min-h-12 items-center justify-center rounded-full px-7 py-3 text-[17px] font-semibold transition-transform duration-200 hover:-translate-y-0.5",
   {
     variants: {
       variant: {

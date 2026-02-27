@@ -13,6 +13,7 @@ export function Navbar({ nav }: NavbarProps) {
   const sectionIds = useMemo(() => nav.items.map((item) => item.href.replace("#", "")), [nav.items]);
   const [activeId, setActiveId] = useState(sectionIds[0] ?? "");
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [theme, setTheme] = useState<"dark" | "light">("dark");
 
   useEffect(() => {
     const onScroll = () => {
@@ -52,12 +53,30 @@ export function Navbar({ nav }: NavbarProps) {
     return () => window.removeEventListener("resize", onResize);
   }, []);
 
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("mn_theme");
+    const nextTheme = savedTheme === "light" ? "light" : "dark";
+    setTheme(nextTheme);
+    document.documentElement.setAttribute("data-theme", nextTheme);
+  }, []);
+
+  const toggleTheme = () => {
+    const nextTheme = theme === "dark" ? "light" : "dark";
+    setTheme(nextTheme);
+    document.documentElement.setAttribute("data-theme", nextTheme);
+    localStorage.setItem("mn_theme", nextTheme);
+  };
+
   return (
-    <header className="sticky top-0 z-50 border-b border-[#ffffff33] bg-[#0d0d0de6] backdrop-blur-md">
+    <header
+      className={`sticky top-0 z-50 border-b backdrop-blur-md ${
+        theme === "dark" ? "border-[#ffffff33] bg-[#0d0d0de6]" : "border-[#0d0d0d26] bg-[#ffffffeb]"
+      }`}
+    >
       <nav className="flex h-20 w-full items-center gap-4 px-4 sm:px-6 md:px-10" aria-label="Principal">
         <a href="#inicio" className="focus-ring inline-flex items-center gap-3 rounded-md">
           <Image src="/images/logo-mn.png" alt="Logo Modernidad Nacional" width={34} height={20} />
-          <span className="font-heading text-[14px] font-semibold text-whiteMain sm:text-[15px]">{nav.brand}</span>
+          <span className="font-heading text-[14px] font-semibold text-textPrimary sm:text-[15px]">{nav.brand}</span>
         </a>
 
         <button
@@ -65,7 +84,9 @@ export function Navbar({ nav }: NavbarProps) {
           aria-label={mobileOpen ? "Cerrar menu" : "Abrir menu"}
           aria-expanded={mobileOpen}
           onClick={() => setMobileOpen((v) => !v)}
-          className="focus-ring ml-auto inline-flex h-11 w-11 items-center justify-center rounded-full border border-[#ffffff55] text-white md:hidden"
+          className={`focus-ring ml-auto inline-flex h-11 w-11 items-center justify-center rounded-full border md:hidden ${
+            theme === "dark" ? "border-[#ffffff55] text-white" : "border-[#0d0d0d55] text-[#0d0d0d]"
+          }`}
         >
           <span className="relative h-4 w-5">
             <span
@@ -98,7 +119,7 @@ export function Navbar({ nav }: NavbarProps) {
                   aria-current={isActive ? "page" : undefined}
                   onClick={() => setActiveId(itemId)}
                   className={`focus-ring relative rounded-md px-1 py-1 text-[15px] transition-colors ${
-                    isActive ? "text-brandYellow" : "text-white hover:text-brandYellow"
+                    isActive ? "text-brandYellow" : "text-textPrimary hover:text-brandYellow"
                   }`}
                 >
                   {item.label}
@@ -113,6 +134,18 @@ export function Navbar({ nav }: NavbarProps) {
           })}
         </ul>
 
+        <button
+          type="button"
+          onClick={toggleTheme}
+          className={`focus-ring ml-2 hidden min-h-11 items-center rounded-full border px-4 text-[14px] font-semibold transition-colors md:inline-flex ${
+            theme === "dark"
+              ? "border-[#ffffff66] text-white hover:bg-[#ffffff1a]"
+              : "border-[#0d0d0d55] text-[#0d0d0d] hover:bg-[#0d0d0d12]"
+          }`}
+        >
+          {theme === "dark" ? "Modo claro" : "Modo oscuro"}
+        </button>
+
         <a
           href="#contacto"
           className="focus-ring ml-auto hidden min-h-11 items-center rounded-full bg-brandPink px-6 text-[15px] font-semibold text-white transition-transform hover:-translate-y-0.5 hover:brightness-110 md:inline-flex"
@@ -124,7 +157,9 @@ export function Navbar({ nav }: NavbarProps) {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
-            className="border-t border-[#ffffff22] bg-[#0d0d0df2] px-4 py-4 md:hidden"
+            className={`border-t px-4 py-4 md:hidden ${
+              theme === "dark" ? "border-[#ffffff22] bg-[#0d0d0df2]" : "border-[#0d0d0d22] bg-[#fffffff2]"
+            }`}
             initial={{ opacity: 0, y: -8 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
@@ -145,7 +180,11 @@ export function Navbar({ nav }: NavbarProps) {
                         setMobileOpen(false);
                       }}
                       className={`focus-ring block rounded-xl px-3 py-3 text-[15px] transition-colors ${
-                        isActive ? "bg-brandPink text-white" : "text-white hover:bg-[#ffffff14]"
+                        isActive
+                          ? "bg-brandPink text-white"
+                          : theme === "dark"
+                            ? "text-white hover:bg-[#ffffff14]"
+                            : "text-[#0d0d0d] hover:bg-[#0d0d0d10]"
                       }`}
                     >
                       {item.label}
@@ -161,6 +200,17 @@ export function Navbar({ nav }: NavbarProps) {
             >
               Apoya a Marisol
             </a>
+            <button
+              type="button"
+              onClick={toggleTheme}
+              className={`focus-ring mt-3 inline-flex min-h-11 w-full items-center justify-center rounded-full border px-6 text-[15px] font-semibold ${
+                theme === "dark"
+                  ? "border-[#ffffff66] text-white hover:bg-[#ffffff14]"
+                  : "border-[#0d0d0d55] text-[#0d0d0d] hover:bg-[#0d0d0d10]"
+              }`}
+            >
+              {theme === "dark" ? "Modo claro" : "Modo oscuro"}
+            </button>
           </motion.div>
         )}
       </AnimatePresence>

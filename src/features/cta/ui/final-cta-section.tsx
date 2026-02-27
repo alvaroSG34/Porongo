@@ -12,12 +12,12 @@ export function FinalCtaSection({ cta }: FinalCtaSectionProps) {
         <span className="inline-flex rounded-full bg-brandYellow px-3 py-2 text-[13px] font-semibold text-blackMain sm:px-4 sm:text-[14px]">
           {cta.badge}
         </span>
-        <h2 className="mt-5 max-w-5xl font-heading text-[clamp(2rem,7.5vw,3.9rem)] font-extrabold leading-tight text-white text-balance sm:mt-6">
+        <h2 className="mt-5 max-w-5xl font-heading text-[clamp(2rem,7.5vw,3.9rem)] font-extrabold leading-tight text-whiteMain text-balance sm:mt-6">
           {cta.title}
         </h2>
         <p className="mt-4 max-w-3xl text-[16px] text-whiteMain sm:text-[19px]">{cta.description}</p>
         <div className="mt-8 flex w-full flex-col justify-center gap-3 sm:w-auto sm:flex-row sm:gap-4">
-          <Button className="bg-blackMain hover:bg-[#0d0d0de6]">{cta.primary}</Button>
+          <Button className="bg-blackMain hover:brightness-95">{cta.primary}</Button>
           <Button variant="secondary">{cta.secondary}</Button>
         </div>
       </div>

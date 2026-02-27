@@ -12,16 +12,51 @@
   --color-brand-yellow: #f2cb05;
   --color-brand-yellow-dark: #f2b705;
   --color-brand-violet: #f24bb2;
+  --color-black-main: #0d0d0d;
+  --color-white-main: #ffffff;
+  --color-gray-light: #d9d9d9;
+  --color-hero-bg: #e0398d;
+  --color-hero-panel: #f2a7c6;
+  --color-soft-border: #ffffff4d;
+  --color-soft-surface: #ffffff26;
+  --color-soft-dark: #0d0d0d33;
+  --color-card-bg: #141414;
+  --color-card-surface: #ffffff12;
+  --color-tab-inactive-bg: #1b1b1b;
+  --color-tab-inactive-text: #f2f2f2;
+  --color-overlay-strong: #0d0d0d88;
   --color-text-primary: #ffffff;
   --color-text-muted: #d9d9d9;
   --color-page-light: #d9d9d9;
 
-  --font-size-body: 1rem;
-  --font-size-body-sm: 0.9375rem;
-  --font-size-nav: 1rem;
+  --font-size-body: 1.0625rem;
+  --font-size-body-sm: 1rem;
+  --font-size-nav: 1.0625rem;
   --font-size-h1: clamp(2.2rem, 5vw, 4.25rem);
   --font-size-h2: clamp(1.8rem, 3.8vw, 3rem);
   --font-size-h3: clamp(1.4rem, 2.8vw, 2.1rem);
+}
+
+:root[data-theme="light"] {
+  --color-bg: #f8f8f8;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f24bb2;
+  --color-black-main: #ffffff;
+  --color-white-main: #0d0d0d;
+  --color-gray-light: #f2f2f2;
+  --color-hero-bg: #f2a7c6;
+  --color-hero-panel: #ffffff;
+  --color-soft-border: #0d0d0d3d;
+  --color-soft-surface: #0d0d0d12;
+  --color-soft-dark: #ffffff66;
+  --color-card-bg: #ffffff;
+  --color-card-surface: #ffffff;
+  --color-tab-inactive-bg: #f1f1f1;
+  --color-tab-inactive-text: #1a1a1a;
+  --color-overlay-strong: #0d0d0d44;
+  --color-text-primary: #0d0d0d;
+  --color-text-muted: #333333;
+  --color-page-light: #f2f2f2;
 }
 
 * {
@@ -41,7 +76,7 @@ body {
   color: var(--color-text-primary);
   font-family: var(--font-body), sans-serif;
   font-size: var(--font-size-body);
-  line-height: 1.45;
+  line-height: 1.55;
 }
 
 html {
@@ -69,4 +104,54 @@ a {
 .desktop-canvas {
   width: 100%;
   margin: 0 auto;
+}
+
+.landing-pop h1,
+.landing-pop h2,
+.landing-pop h3 {
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-shadow:
+    0 2px 0 rgba(0, 0, 0, 0.18),
+    0 10px 24px rgba(0, 0, 0, 0.22);
+}
+
+.landing-pop p,
+.landing-pop li,
+.landing-pop a,
+.landing-pop button,
+.landing-pop span {
+  font-weight: 600;
+}
+
+.landing-pop p,
+.landing-pop li,
+.landing-pop a,
+.landing-pop button {
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.16);
+}
+
+.landing-pop h1,
+.landing-pop h2,
+.landing-pop h3,
+.landing-pop a,
+.landing-pop button {
+  text-rendering: geometricPrecision;
+}
+
+.landing-pop .clean-title {
+  text-shadow: none;
+  letter-spacing: -0.01em;
+}
+
+.landing-pop .clean-copy {
+  text-shadow: none;
+}
+
+:root[data-theme="light"] .landing-pop h1,
+:root[data-theme="light"] .landing-pop h2,
+:root[data-theme="light"] .landing-pop h3 {
+  text-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.5),
+    0 8px 18px rgba(13, 13, 13, 0.14);
 }

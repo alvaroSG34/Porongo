@@ -14,9 +14,9 @@ const config: Config = {
         brandYellow: "var(--color-brand-yellow)",
         brandYellowDark: "var(--color-brand-yellow-dark)",
         brandViolet: "var(--color-brand-violet)",
-        blackMain: "#0D0D0D",
-        whiteMain: "#FFFFFF",
-        grayLight: "#D9D9D9",
+        blackMain: "var(--color-black-main)",
+        whiteMain: "var(--color-white-main)",
+        grayLight: "var(--color-gray-light)",
         textPrimary: "var(--color-text-primary)",
         textMuted: "var(--color-text-muted)"
       },

@@ -10,30 +10,32 @@ export function HeroSection({ hero }: HeroSectionProps) {
     "/pdf/Plan%20de%20Gobierno%20de%20la%20Dra.%20Marisol%20Negrete%20Porongo.pdf";
 
   return (
-    <section id="inicio" className="bg-[#E0398D]">
+    <section id="inicio" className="bg-[var(--color-hero-bg)]">
       <div className="grid w-full grid-cols-1 lg:grid-cols-2">
         <div className="flex flex-col justify-center px-4 py-10 sm:px-6 md:px-10 md:py-12 lg:px-20 lg:py-14">
-          <div className="mb-5 sm:mb-6">
+          <span className="mb-6 inline-flex w-fit rounded-full border-2 border-[var(--color-soft-border)] bg-[var(--color-soft-dark)] px-3 py-2 text-[13px] font-bold text-whiteMain shadow-[0_8px_22px_rgba(0,0,0,0.2)] sm:mb-8 sm:px-4 sm:text-[14px]">
+            {hero.badge}
+          </span>
+          <div className="flex items-start gap-2 sm:gap-3">
+            <h1 className="font-heading text-[clamp(2.7rem,10.5vw,4.8rem)] font-black leading-[0.94] text-whiteMain [text-shadow:0_2px_0_rgba(0,0,0,0.22),0_14px_30px_rgba(0,0,0,0.3)]">
+              {hero.titleTop}
+              <span className="mt-3 block text-brandYellow [text-shadow:0_2px_0_rgba(0,0,0,0.25),0_10px_26px_rgba(0,0,0,0.26)]">
+                {hero.titleAccent}
+              </span>
+            </h1>
             <Image
               src="/images/logo-mn.png"
               alt="Logo Modernidad Nacional"
               width={160}
               height={52}
-              className="h-auto w-[130px] sm:w-[145px] lg:w-[160px]"
+              className="mt-1 hidden h-auto w-[170px] sm:w-[190px] md:block lg:w-[220px]"
               priority
             />
           </div>
-          <span className="mb-6 inline-flex w-fit rounded-full border border-[#ffffff4d] bg-[#0d0d0d33] px-3 py-2 text-[13px] text-whiteMain sm:mb-8 sm:px-4 sm:text-[14px]">
-            {hero.badge}
-          </span>
-          <h1 className="font-heading text-[clamp(2.5rem,10vw,4.4rem)] font-extrabold leading-[0.96] text-white">
-            {hero.titleTop}
-            <span className="mt-3 block text-brandYellow">{hero.titleAccent}</span>
-          </h1>
-          <span className="mt-6 inline-flex w-fit rounded-full bg-blackMain px-4 py-2 text-[15px] font-extrabold text-brandYellow sm:mt-8 sm:px-5 sm:text-[16px]">
+          <span className="mt-6 inline-flex w-fit rounded-full bg-blackMain px-4 py-2 text-[15px] font-black tracking-[0.01em] text-brandYellow shadow-[0_10px_22px_rgba(0,0,0,0.32)] sm:mt-8 sm:px-5 sm:text-[16px]">
             {hero.officePeriod}
           </span>
-          <p className="content-readable mt-6 max-w-[440px] text-[clamp(1.5rem,5.5vw,1.75rem)] leading-[1.18] text-whiteMain sm:mt-7">
+          <p className="content-readable mt-6 max-w-[470px] text-[clamp(1.6rem,5.7vw,1.9rem)] font-semibold leading-[1.2] text-whiteMain [text-shadow:0_2px_10px_rgba(0,0,0,0.24)] sm:mt-7">
             {hero.summary}
           </p>
           <div className="mt-8">
@@ -49,24 +51,24 @@ export function HeroSection({ hero }: HeroSectionProps) {
             {hero.chips.map((chip) => (
               <li
                 key={chip}
-                className="rounded-full border border-[#ffffff4d] bg-[#ffffff26] px-3 py-1.5 text-[14px] text-whiteMain"
+                className="rounded-full border-2 border-[var(--color-soft-border)] bg-[var(--color-soft-surface)] px-5 py-2 text-[17px] font-bold text-whiteMain"
               >
                 * {chip}
               </li>
             ))}
           </ul>
         </div>
-        <div className="relative min-h-[360px] bg-[#f2a7c6] sm:min-h-[480px] lg:min-h-[735px]">
+        <div className="relative min-h-[360px] bg-[var(--color-hero-panel)] sm:min-h-[480px] lg:min-h-[735px]">
           <Image
             src="/images/marisol-hero.png"
             alt="Dra. Marisol Negrete"
             fill
-            className="object-cover"
-            style={{ objectPosition: "center 16%" }}
+            className="object-contain"
+            style={{ objectPosition: "center bottom" }}
             priority
           />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#f2058733] via-transparent to-[#f24bb226]" />
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-10 bg-gradient-to-r from-[#e0398d] to-transparent" />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[var(--color-soft-surface)] via-transparent to-[var(--color-soft-dark)]" />
+          <div className="pointer-events-none absolute inset-y-0 left-0 w-10 bg-gradient-to-r from-[var(--color-hero-bg)] to-transparent" />
         </div>
       </div>
     </section>

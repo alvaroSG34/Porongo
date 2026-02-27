@@ -11,7 +11,7 @@ export function VisionSection({ vision }: VisionSectionProps) {
         <span className="inline-flex rounded-full bg-brandPinkLight px-3 py-2 text-[13px] text-whiteMain sm:px-4 sm:text-[14px]">
           {vision.badge}
         </span>
-        <h2 className="mt-5 max-w-5xl font-heading text-[clamp(2rem,7vw,3.45rem)] font-extrabold leading-tight text-white text-balance sm:mt-6">
+        <h2 className="mt-5 max-w-5xl font-heading text-[clamp(2rem,7vw,3.45rem)] font-extrabold leading-tight text-whiteMain text-balance sm:mt-6">
           {vision.title}
         </h2>
         <p className="content-readable mt-5 text-[16px] leading-[1.45] text-textMuted sm:mt-6 sm:text-[18px]">
