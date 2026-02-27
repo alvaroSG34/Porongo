@@ -22,7 +22,7 @@ function PillarCard({ pillar, index }: { pillar: LandingContent["pillars"][numbe
 
   return (
     <motion.article
-      className="group relative overflow-hidden rounded-[24px] border border-[#ffffff33] bg-[#141414] p-8"
+      className="group relative overflow-hidden rounded-[20px] border border-[#ffffff33] bg-[#141414] p-5 sm:rounded-[22px] sm:p-6 lg:rounded-[24px] lg:p-8"
       initial={reduceMotion ? false : { opacity: 0, y: 18 }}
       whileInView={reduceMotion ? {} : { opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-8%" }}
@@ -32,22 +32,25 @@ function PillarCard({ pillar, index }: { pillar: LandingContent["pillars"][numbe
       <div className="absolute left-0 top-0 h-1.5 w-full" style={{ backgroundColor: accent }} />
 
       <div className="flex items-start justify-between gap-4">
-        <span className="font-heading text-[72px] font-extrabold leading-none text-[#ffffff26]">
+        <span className="font-heading text-[52px] font-extrabold leading-none text-[#ffffff26] sm:text-[62px] lg:text-[72px]">
           {String(index + 1).padStart(2, "0")}
         </span>
         <span
-          className="inline-flex rounded-full px-3 py-1 text-[12px] font-semibold text-blackMain"
+          className="inline-flex rounded-full px-3 py-1 text-[11px] font-semibold text-blackMain sm:text-[12px]"
           style={{ backgroundColor: accent }}
         >
           {impactLabels[index]}
         </span>
       </div>
 
-      <h3 id={pillar.id} className="mt-4 font-heading text-[34px] font-extrabold leading-[1.05] text-whiteMain">
+      <h3
+        id={pillar.id}
+        className="mt-4 font-heading text-[clamp(1.7rem,4.8vw,2.125rem)] font-extrabold leading-[1.05] text-whiteMain"
+      >
         {pillar.title}
       </h3>
 
-      <p className="mt-3 text-[17px] font-medium text-textMuted">{shortPhrases[index]}</p>
+      <p className="mt-3 text-[15px] font-medium text-textMuted sm:text-[16px] lg:text-[17px]">{shortPhrases[index]}</p>
 
       <motion.div
         className="mt-6 h-1 w-16 origin-left rounded-full"
@@ -60,8 +63,8 @@ function PillarCard({ pillar, index }: { pillar: LandingContent["pillars"][numbe
 
 export function PillarsSection({ pillars }: PillarsSectionProps) {
   return (
-    <section className="bg-blackMain px-10 py-16">
-      <div className="grid w-full grid-cols-2 gap-6">
+    <section className="bg-blackMain px-4 py-12 sm:px-6 sm:py-14 md:px-10 md:py-16">
+      <div className="grid w-full grid-cols-1 gap-4 sm:gap-5 md:grid-cols-2 md:gap-6">
         {pillars.map((pillar, index) => (
           <PillarCard key={pillar.id} pillar={pillar} index={index} />
         ))}
