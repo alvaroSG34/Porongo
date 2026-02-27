@@ -1,0 +1,4461 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 32,
+      "y": -539,
+      "name": "Frame",
+      "enabled": false,
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "ybDyQ",
+      "x": 0,
+      "y": 0,
+      "name": "Landing Page",
+      "enabled": false,
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "qPuZZ",
+          "name": "Navbar",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#1A0A2E",
+          "padding": [
+            0,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "pYpgx",
+              "name": "NavLogo",
+              "height": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HSXQf",
+                  "name": "LogoImg",
+                  "width": 60,
+                  "height": 50,
+                  "cornerRadius": 4
+                },
+                {
+                  "type": "text",
+                  "id": "2RdK8",
+                  "name": "navBrand",
+                  "content": "Modernidad Nacional",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 18,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "7m5IE",
+              "name": "navSpacer",
+              "width": "fill_container",
+              "height": 10
+            },
+            {
+              "type": "frame",
+              "id": "etsW4",
+              "name": "NavLinks",
+              "height": "fill_container",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "2UvGT",
+                  "name": "navLink1",
+                  "content": "Inicio",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "O8ZU5",
+                  "name": "navLink2",
+                  "content": "Propuestas",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "vqMnP",
+                  "name": "navLink3",
+                  "content": "Acerca de",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "RNME1",
+                  "name": "navLink4",
+                  "content": "Contacto",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kxHIt",
+              "name": "NavCTA",
+              "fill": "#FF1493",
+              "cornerRadius": 30,
+              "padding": [
+                12,
+                28
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "egqMP",
+                  "name": "navCtaText",
+                  "content": "Únete",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "9ISi6",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 760,
+          "fill": "#1A0A2E",
+          "children": [
+            {
+              "type": "frame",
+              "id": "u0UI8",
+              "name": "HeroBg",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                60,
+                80
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vvJ2m",
+                  "name": "HeroTag",
+                  "fill": "#FF1493",
+                  "cornerRadius": 30,
+                  "padding": [
+                    8,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "G5cYR",
+                      "name": "tagTxt",
+                      "fill": "#FFFFFF",
+                      "content": "CANDIDATA A ALCALDESA · MODERNIDAD NACIONAL",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "8EY0v",
+                  "name": "heroHeadline",
+                  "fill": "#FFFFFF",
+                  "content": "Dra. Marisol Negrete",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 68,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "frame",
+                  "id": "1qLTH",
+                  "name": "AlcaldesaBar",
+                  "fill": "#FFD700",
+                  "cornerRadius": 40,
+                  "padding": [
+                    12,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ObLR1",
+                      "name": "alcaldesaBar2Text",
+                      "fill": "#1A0A2E",
+                      "content": "ALCALDESA 2026–2031",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 20,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Sw0I0",
+                  "name": "heroSubline",
+                  "fill": "#FFD700",
+                  "content": "Porongo moderno. Porongo seguro. Porongo con futuro.",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "jddex",
+                  "name": "HeroCTAs",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "RWOIT",
+                      "name": "heroCta1",
+                      "fill": "#FF1493",
+                      "cornerRadius": 40,
+                      "padding": [
+                        18,
+                        40
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MHjQZ",
+                          "name": "heroCta1Text",
+                          "fill": "#FFFFFF",
+                          "content": "Ver Plan de Gobierno",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 16,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OkWeu",
+                      "name": "heroCta2",
+                      "fill": "#FFD700",
+                      "cornerRadius": 40,
+                      "padding": [
+                        18,
+                        40
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rcoR6",
+                          "name": "heroCta2Text",
+                          "fill": "#1A0A2E",
+                          "content": "Descargar Programa Completo",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 16,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KGxv9",
+                  "name": "Badges",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mdzcR",
+                      "name": "badge1",
+                      "fill": "#FFFFFF22",
+                      "cornerRadius": 30,
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "l6UBu",
+                          "name": "badge1Text",
+                          "fill": "#FFFFFF",
+                          "content": "✓ Transparencia",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HikVH",
+                      "name": "badge2",
+                      "fill": "#FFFFFF22",
+                      "cornerRadius": 30,
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wpLXX",
+                          "name": "badge2Text",
+                          "fill": "#FFFFFF",
+                          "content": "✓ Planificación",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Xdcsz",
+                      "name": "badge3",
+                      "fill": "#FFFFFF22",
+                      "cornerRadius": 30,
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "G9tDY",
+                          "name": "badge3Text",
+                          "fill": "#FFFFFF",
+                          "content": "✓ Gestión cercana",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PNR8h",
+              "name": "HeroImgCol",
+              "width": 520,
+              "height": "fill_container",
+              "fill": "#2A1040",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7UFeB",
+                  "name": "CandidatePhoto",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "jxk",
+                    "link": "https://unsplash.com/@jxk",
+                    "author": "Jan Kopřiva"
+                  },
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1611486348099-ce9df4c6c683?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyMjM0Mzd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "czskd",
+                  "name": "AlcaldesaBanner",
+                  "width": "fill_container",
+                  "height": 100,
+                  "fill": "#1A0A2E",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VccKO",
+                      "name": "AlcaldesaNameImg",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "anunesphotos",
+                        "link": "https://unsplash.com/@anunesphotos",
+                        "author": "Alvaro"
+                      },
+                      "width": "fill_container",
+                      "height": 80,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1710159032354-082cdc52595d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyMjM0NjF8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EhmDJ",
+          "name": "StatsBar",
+          "width": "fill_container",
+          "height": 120,
+          "fill": "#FF1493",
+          "padding": [
+            0,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "hzt8G",
+              "name": "stat1",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HSKFj",
+                  "name": "stat1Num",
+                  "fill": "#FFFFFF",
+                  "content": "25+",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 40,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "eJQfB",
+                  "name": "stat1Label",
+                  "fill": "#FFE0F0",
+                  "content": "Años de Servicio",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qEKFj",
+              "name": "divider1",
+              "width": 2,
+              "height": 60,
+              "fill": "#FF69B4"
+            },
+            {
+              "type": "frame",
+              "id": "1iNBI",
+              "name": "stat2",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Y1cWz",
+                  "name": "stat2Num",
+                  "fill": "#FFFFFF",
+                  "content": "100K+",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 40,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "Ofhcd",
+                  "name": "stat2Label",
+                  "fill": "#FFE0F0",
+                  "content": "Ciudadanos Comprometidos",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3Sx19",
+              "name": "divider2",
+              "width": 2,
+              "height": 60,
+              "fill": "#FF69B4"
+            },
+            {
+              "type": "frame",
+              "id": "Re7ZU",
+              "name": "stat3",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GHIVt",
+                  "name": "stat3Num",
+                  "fill": "#FFFFFF",
+                  "content": "15",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 40,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "O9Bwh",
+                  "name": "stat3Label",
+                  "fill": "#FFE0F0",
+                  "content": "Proyectos Municipales",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XMgUd",
+              "name": "divider3",
+              "width": 2,
+              "height": 60,
+              "fill": "#FF69B4"
+            },
+            {
+              "type": "frame",
+              "id": "mtt7z",
+              "name": "stat4",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MCWLQ",
+                  "name": "stat4Num",
+                  "fill": "#FFD700",
+                  "content": "5",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 40,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "BlMPk",
+                  "name": "stat4Label",
+                  "fill": "#FFE0F0",
+                  "content": "Años de Plan de Gobierno",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "C3J92",
+          "name": "VisionPorongo",
+          "width": "fill_container",
+          "fill": "#0D0A1E",
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            100,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "zRtKN",
+              "name": "VisionHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dPhwP",
+                  "name": "visionChip",
+                  "fill": "#FF1493",
+                  "cornerRadius": 20,
+                  "padding": [
+                    6,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pLlgv",
+                      "name": "visionChipText",
+                      "fill": "#FFFFFF",
+                      "content": "VISIÓN PORONGO 2029",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "2Rn8K",
+                  "name": "visionTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Un Porongo Moderno, Ordenado y Sostenible",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 48,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "kkmlP",
+                  "name": "visionDesc",
+                  "fill": "#AAAACC",
+                  "content": "Construiremos un Porongo moderno, ordenado y sostenible, con economía diversificada, servicios de calidad, territorio planificado, ambiente protegido y gestión transparente.",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bxJ0W",
+              "name": "VisionGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XZtfO",
+                  "name": "vBlock1",
+                  "width": "fill_container",
+                  "fill": "#1A1040",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "V4Xr2",
+                      "name": "vBlock1Accent",
+                      "width": 48,
+                      "height": 6,
+                      "fill": "#FFD700",
+                      "cornerRadius": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q2Tp9",
+                      "name": "vBlock1Title",
+                      "fill": "#FFFFFF",
+                      "content": "Orden Territorial",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 24,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F6o2d",
+                      "name": "vBlock1Desc",
+                      "fill": "#AAAACC",
+                      "content": "Planificación urbana estratégica, zonificación ordenada y catastro municipal actualizado.",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E7ASl",
+                  "name": "vBlock2",
+                  "width": "fill_container",
+                  "fill": "#FF1493",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hdJFF",
+                      "name": "vBlock2Accent",
+                      "width": 48,
+                      "height": 6,
+                      "fill": "#FFD700",
+                      "cornerRadius": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "vm0dK",
+                      "name": "vBlock2Title",
+                      "fill": "#FFFFFF",
+                      "content": "Desarrollo Económico",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 24,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rG3zn",
+                      "name": "vBlock2Desc",
+                      "fill": "#FFE0F0",
+                      "content": "Economía diversificada con emprendimientos locales, turismo, agro y comercio bien organizado.",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pFkl6",
+                  "name": "vBlock3",
+                  "width": "fill_container",
+                  "fill": "#1A1040",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WXf2l",
+                      "name": "vBlock3Accent",
+                      "width": 48,
+                      "height": 6,
+                      "fill": "#FF1493",
+                      "cornerRadius": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "eS1Ow",
+                      "name": "vBlock3Title",
+                      "fill": "#FFFFFF",
+                      "content": "Servicios Públicos Eficientes",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 24,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pGaHB",
+                      "name": "vBlock3Desc",
+                      "fill": "#AAAACC",
+                      "content": "Salud, educación, agua potable y saneamiento de calidad para todos los vecinos de Porongo.",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2cS6Y",
+                  "name": "vBlock4",
+                  "width": "fill_container",
+                  "fill": "#1A1040",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NPSWb",
+                      "name": "vBlock4Accent",
+                      "width": 48,
+                      "height": 6,
+                      "fill": "#FFD700",
+                      "cornerRadius": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "HHjEG",
+                      "name": "vBlock4Title",
+                      "fill": "#FFFFFF",
+                      "content": "Protección del Río Piraí",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 24,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jyzDw",
+                      "name": "vBlock4Desc",
+                      "fill": "#AAAACC",
+                      "content": "Conservación ambiental, riberas protegidas y programas de limpieza del ecosistema fluvial.",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GWZJ0",
+          "name": "Propuestas",
+          "width": "fill_container",
+          "fill": "#FAFAFA",
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            100,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "t05kx",
+              "name": "propsHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OuTAN",
+                  "name": "propsLabel",
+                  "fill": "#FF1493",
+                  "cornerRadius": 20,
+                  "padding": [
+                    6,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OMJj4",
+                      "name": "propsLabelText",
+                      "fill": "#FFFFFF",
+                      "content": "NUESTRAS PROPUESTAS",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "mVsD0",
+                  "name": "propsTitle",
+                  "fill": "#1A0A2E",
+                  "content": "Un Plan Real para Todos",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 48,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "PZDKY",
+                  "name": "propsSub",
+                  "fill": "#666666",
+                  "content": "Con compromiso, experiencia y voluntad política para transformar nuestra ciudad.",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PFBNh",
+              "name": "propsGrid",
+              "width": "fill_container",
+              "gap": 30,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FzEvE",
+                  "name": "card1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    36
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "F2S0F",
+                      "name": "card1Icon",
+                      "width": 60,
+                      "height": 60,
+                      "fill": "#FF1493",
+                      "cornerRadius": 30
+                    },
+                    {
+                      "type": "text",
+                      "id": "4fDTq",
+                      "name": "card1Title",
+                      "fill": "#1A0A2E",
+                      "content": "Salud para Todos",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 22,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nuMBO",
+                      "name": "card1Desc",
+                      "fill": "#555555",
+                      "content": "Modernización de centros de salud, médicos comunitarios y atención gratuita para adultos mayores.",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "6jZ67",
+                  "name": "card2",
+                  "width": "fill_container",
+                  "fill": "#1A0A2E",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    36
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6zaEw",
+                      "name": "card2Icon",
+                      "width": 60,
+                      "height": 60,
+                      "fill": "#FFD700",
+                      "cornerRadius": 30
+                    },
+                    {
+                      "type": "text",
+                      "id": "L7Iks",
+                      "name": "card2Title",
+                      "fill": "#FFFFFF",
+                      "content": "Educación de Calidad",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 22,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "I1N4T",
+                      "name": "card2Desc",
+                      "fill": "#CCCCCC",
+                      "content": "Becas estudiantiles, tecnología en aulas y programas de formación técnica para jóvenes.",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wbV02",
+                  "name": "card3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    36
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "n8ilM",
+                      "name": "card3Icon",
+                      "width": 60,
+                      "height": 60,
+                      "fill": "#FF1493",
+                      "cornerRadius": 30
+                    },
+                    {
+                      "type": "text",
+                      "id": "GiIOS",
+                      "name": "card3Title",
+                      "fill": "#1A0A2E",
+                      "content": "Seguridad Ciudadana",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 22,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WcsBD",
+                      "name": "card3Desc",
+                      "fill": "#555555",
+                      "content": "Más patrullaje, cámaras de vigilancia y programas de prevención del delito en barrios.",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ADazu",
+              "name": "propsGrid2",
+              "width": "fill_container",
+              "gap": 30,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cSHr5",
+                  "name": "card4",
+                  "width": "fill_container",
+                  "fill": "#1A0A2E",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    36
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Z4Gdt",
+                      "name": "card4Icon",
+                      "width": 60,
+                      "height": 60,
+                      "fill": "#FF1493",
+                      "cornerRadius": 30
+                    },
+                    {
+                      "type": "text",
+                      "id": "Cp0Yh",
+                      "name": "card4Title",
+                      "fill": "#FFFFFF",
+                      "content": "Infraestructura y Obras",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 22,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6H8iU",
+                      "name": "card4Desc",
+                      "fill": "#CCCCCC",
+                      "content": "Pavimentación de calles, parques modernos y mejoramiento del transporte urbano.",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "98UXG",
+                  "name": "card5",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    36
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZJUgs",
+                      "name": "card5Icon",
+                      "width": 60,
+                      "height": 60,
+                      "fill": "#FFD700",
+                      "cornerRadius": 30
+                    },
+                    {
+                      "type": "text",
+                      "id": "xtJeF",
+                      "name": "card5Title",
+                      "fill": "#1A0A2E",
+                      "content": "Empleo y Economía",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 22,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QAoX9",
+                      "name": "card5Desc",
+                      "fill": "#555555",
+                      "content": "Apoyo a emprendedores locales, mercados municipales modernos y ferias de empleo.",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EhFSO",
+                  "name": "card6",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    36
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "miGJe",
+                      "name": "card6Icon",
+                      "width": 60,
+                      "height": 60,
+                      "fill": "#FF1493",
+                      "cornerRadius": 30
+                    },
+                    {
+                      "type": "text",
+                      "id": "3YPNf",
+                      "name": "card6Title",
+                      "fill": "#1A0A2E",
+                      "content": "Medio Ambiente",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 22,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SJdcD",
+                      "name": "card6Desc",
+                      "fill": "#555555",
+                      "content": "Reforestación, reciclaje comunitario y energías limpias en edificios públicos.",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LKbwX",
+          "name": "AcercaDe",
+          "width": "fill_container",
+          "height": 640,
+          "fill": "#1A0A2E",
+          "children": [
+            {
+              "type": "frame",
+              "id": "3tIlA",
+              "name": "AboutImgFrame",
+              "width": 560,
+              "height": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "a9s6z",
+                  "name": "AboutPhoto",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "osterman",
+                    "link": "https://unsplash.com/@osterman",
+                    "author": "Vladislav Osterman"
+                  },
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1716351543161-8a9689f3d20f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyMjI5NjZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "s4vv3",
+                  "name": "AccentBar",
+                  "width": 8,
+                  "height": "fill_container",
+                  "fill": "#FF1493"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VsskE",
+              "name": "AboutText",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vAxOl",
+                  "name": "aboutChip",
+                  "fill": "#FF1493",
+                  "cornerRadius": 20,
+                  "padding": [
+                    6,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9TN09",
+                      "name": "aboutChipText",
+                      "fill": "#FFFFFF",
+                      "content": "ACERCA DE MARISOL",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "OVtcM",
+                  "name": "aboutName",
+                  "fill": "#FFFFFF",
+                  "content": "Dra. Marisol Negrete",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 48,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "kj9C4",
+                  "name": "aboutSubtitle",
+                  "fill": "#FFD700",
+                  "content": "Candidata a Alcaldesa 2026-2031",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "6n5Ny",
+                  "name": "aboutBio",
+                  "fill": "#CCCCCC",
+                  "content": "Médica y líder comunitaria con más de 25 años dedicados al servicio público. Trabajó incansablemente para mejorar la calidad de vida de las familias de nuestra ciudad, con proyectos de salud, educación y desarrollo social que han beneficiado a miles de ciudadanos.",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "z1fDA",
+                  "name": "aboutBio2",
+                  "fill": "#AAAAAA",
+                  "content": "Su liderazgo, honestidad y profunda vocación de servicio la convierten en la opción más preparada para conducir nuestra ciudad hacia el futuro.",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "HiPFQ",
+                  "name": "aboutCtaBtn",
+                  "fill": "#FF1493",
+                  "cornerRadius": 40,
+                  "padding": [
+                    16,
+                    36
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0JfBe",
+                      "name": "aboutCtaText",
+                      "fill": "#FFFFFF",
+                      "content": "Conoce su Trayectoria",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Z47Bz",
+          "name": "FinalCTA",
+          "width": "fill_container",
+          "fill": "#FF1493",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "opWYg",
+              "name": "ctaTitle",
+              "fill": "#FFFFFF",
+              "content": "¡Tu Voto es el Cambio que Necesitamos!",
+              "fontFamily": "Montserrat",
+              "fontSize": 54,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "7k9GI",
+              "name": "ctaSub",
+              "fill": "#FFE0F0",
+              "content": "Únete al movimiento que está transformando nuestra ciudad. Juntos construimos el futuro.",
+              "fontFamily": "Montserrat",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "KLs9a",
+              "name": "ctaRow",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DnCbg",
+                  "name": "ctaBtn1",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 40,
+                  "padding": [
+                    20,
+                    48
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wCuog",
+                      "name": "ctaBtn1Text",
+                      "fill": "#FF1493",
+                      "content": "Apoya a Marisol",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 18,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "j5o8c",
+                  "name": "ctaBtn2",
+                  "fill": "transparent",
+                  "cornerRadius": 40,
+                  "padding": [
+                    20,
+                    48
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XdZq3",
+                      "name": "ctaBtn2Text",
+                      "fill": "#FFFFFF",
+                      "content": "Comparte el Mensaje",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 18,
+                      "fontWeight": "800"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gtO5U",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#0D0618",
+          "padding": [
+            60,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "QVKTr",
+              "name": "footerLeft",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vSs8F",
+                  "name": "footerLogo",
+                  "fill": "#FF1493",
+                  "content": "MN",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 42,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "rw9Ck",
+                  "name": "footerBrand",
+                  "fill": "#FFFFFF",
+                  "content": "Modernidad Nacional",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "os1W7",
+                  "name": "footerTagline",
+                  "fill": "#888888",
+                  "content": "Marisol Negrete · Alcaldesa 2026-2031",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BP14u",
+              "name": "footerLinks",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WNyUj",
+                  "name": "footerLinksTitle",
+                  "fill": "#FF1493",
+                  "content": "NAVEGACIÓN",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "96f5Q",
+                  "name": "footLink1",
+                  "fill": "#999999",
+                  "content": "Inicio",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Rx6ll",
+                  "name": "footLink2",
+                  "fill": "#999999",
+                  "content": "Propuestas",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "j5Yi8",
+                  "name": "footLink3",
+                  "fill": "#999999",
+                  "content": "Acerca de",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "LZPUw",
+                  "name": "footLink4",
+                  "fill": "#999999",
+                  "content": "Contacto",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yEfaB",
+          "name": "footerCopy",
+          "width": "fill_container",
+          "height": 50,
+          "fill": "#1A0A2E",
+          "padding": [
+            0,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "g6j6x",
+              "name": "footerCopyText",
+              "fill": "#666666",
+              "content": "© 2026 Modernidad Nacional · Dra. Marisol Negrete · Todos los derechos reservados.",
+              "fontFamily": "Montserrat",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "fyvpT",
+      "x": 1640,
+      "y": 0,
+      "name": "Landing Page V2 — Bauhaus",
+      "enabled": false,
+      "width": 1621,
+      "height": 2338,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "FJjSB",
+          "name": "Navbar",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#FFFFFF",
+          "padding": [
+            0,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "9sbNs",
+              "name": "NavLogo",
+              "height": "fill_container",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mrWGT",
+                  "name": "logoMN",
+                  "fill": "#FF1493",
+                  "content": "MN",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 32,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "frame",
+                  "id": "1Me7Z",
+                  "name": "logoDot",
+                  "width": 8,
+                  "height": 8,
+                  "fill": "#FFD700",
+                  "cornerRadius": 4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1ETB8",
+              "name": "spacer2",
+              "width": "fill_container",
+              "height": 10
+            },
+            {
+              "type": "frame",
+              "id": "UKA80",
+              "name": "navLinks2",
+              "height": "fill_container",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "2c3Uj",
+                  "name": "nl1",
+                  "fill": "#000000",
+                  "content": "INICIO",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "jZ9T3",
+                  "name": "nl2",
+                  "fill": "#000000",
+                  "content": "PROPUESTAS",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "rCTUV",
+                  "name": "nl3",
+                  "fill": "#000000",
+                  "content": "VISIÓN",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "Wp4Hk",
+                  "name": "nl4",
+                  "fill": "#000000",
+                  "content": "CONTACTO",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "0IWqE",
+              "name": "navCta2",
+              "fill": "#000000",
+              "padding": [
+                12,
+                28
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ea5FY",
+                  "name": "navCta2Text",
+                  "fill": "#FF1493",
+                  "content": "APOYA",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "MbmLQ",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 720,
+          "fill": "#FFFFFF",
+          "children": [
+            {
+              "type": "frame",
+              "id": "tacK4",
+              "name": "HeroLeft",
+              "width": 860,
+              "height": "fill_container",
+              "fill": "#FFFFFF",
+              "layout": "vertical",
+              "padding": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gG9ks",
+                  "name": "TopBar",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Fq8Ef",
+                      "name": "heroBadge",
+                      "fill": "#FF1493",
+                      "padding": [
+                        6,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SsoKd",
+                          "name": "heroBadgeText",
+                          "fill": "#FFFFFF",
+                          "content": "MODERNIDAD NACIONAL",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b8D9X",
+                      "name": "heroBadgeYear",
+                      "fill": "#000000",
+                      "padding": [
+                        6,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Itoms",
+                          "name": "heroBadgeYearText",
+                          "fill": "#FFD700",
+                          "content": "ALCALDESA 2026–2031",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RhvGB",
+                  "name": "heroSpacer",
+                  "width": 10,
+                  "height": 48
+                },
+                {
+                  "type": "text",
+                  "id": "CYNIP",
+                  "name": "heroName1",
+                  "fill": "#000000",
+                  "content": "DRA.",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 88,
+                  "fontWeight": "900",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "z289j",
+                  "name": "heroName2",
+                  "fill": "#FF1493",
+                  "content": "MARISOL",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 110,
+                  "fontWeight": "900",
+                  "letterSpacing": -3
+                },
+                {
+                  "type": "text",
+                  "id": "5N6K9",
+                  "name": "heroName3",
+                  "fill": "#000000",
+                  "content": "NEGRETE",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 110,
+                  "fontWeight": "900",
+                  "letterSpacing": -3
+                },
+                {
+                  "type": "frame",
+                  "id": "XgGaW",
+                  "name": "heroAccentLine",
+                  "width": 180,
+                  "height": 8,
+                  "fill": "#FFD700"
+                },
+                {
+                  "type": "text",
+                  "id": "bGjGi",
+                  "name": "heroSlogan",
+                  "fill": "#000000",
+                  "content": "Porongo moderno. Porongo seguro. Porongo con futuro.",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "XJG8f",
+                  "name": "HeroCtaRow",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mnK4g",
+                      "name": "cta2a",
+                      "fill": "#FF1493",
+                      "padding": [
+                        18,
+                        36
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xopLJ",
+                          "name": "cta2aText",
+                          "fill": "#FFFFFF",
+                          "content": "VER PLAN DE GOBIERNO",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "THQ2l",
+                      "name": "cta2b",
+                      "fill": "#FFFFFF",
+                      "padding": [
+                        18,
+                        36
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GVIzL",
+                          "name": "cta2bText",
+                          "fill": "#000000",
+                          "content": "DESCARGAR PROGRAMA",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d2E9K",
+                  "name": "BadgeRow",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "B8xgm",
+                      "name": "badg2a",
+                      "fill": "#FFFFFF",
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cDUww",
+                          "name": "badg2aText",
+                          "fill": "#000000",
+                          "content": "TRANSPARENCIA",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VoAng",
+                      "name": "badg2b",
+                      "fill": "#000000",
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "twYpZ",
+                          "name": "badg2bText",
+                          "fill": "#FFFFFF",
+                          "content": "PLANIFICACIÓN",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GbKFB",
+                      "name": "badg2c",
+                      "fill": "#FFFFFF",
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5bfEb",
+                          "name": "badg2cText",
+                          "fill": "#000000",
+                          "content": "GESTIÓN CERCANA",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "D1Dmk",
+              "name": "HeroRight",
+              "width": 580,
+              "height": "fill_container",
+              "fill": "#000000",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "M3bM0",
+                  "name": "HeroPhoto",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "gamafilms1703",
+                    "link": "https://unsplash.com/@gamafilms1703",
+                    "author": "Gama. Films"
+                  },
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1591073554564-08aaaa20281f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyMjM4NDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "gRUKH",
+                  "name": "PinkStripe",
+                  "width": "fill_container",
+                  "height": 16,
+                  "fill": "#FF1493"
+                },
+                {
+                  "type": "frame",
+                  "id": "jw7v0",
+                  "name": "YellowStripe",
+                  "width": "fill_container",
+                  "height": 16,
+                  "fill": "#FFD700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "shLtT",
+          "name": "StatsBar",
+          "width": "fill_container",
+          "height": 140,
+          "fill": "#000000",
+          "padding": [
+            0,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "P6kT5",
+              "name": "s2a",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QU2EY",
+                  "name": "s2aNum",
+                  "fill": "#FF1493",
+                  "content": "25+",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 56,
+                  "fontWeight": "900",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "6pwcN",
+                  "name": "s2aLbl",
+                  "fill": "#FFFFFF",
+                  "content": "AÑOS DE SERVICIO",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Igjuv",
+              "name": "div2a",
+              "width": 2,
+              "height": "fill_container",
+              "fill": "#333333"
+            },
+            {
+              "type": "frame",
+              "id": "0F4R9",
+              "name": "s2b",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q1zyq",
+                  "name": "s2bNum",
+                  "fill": "#FFFFFF",
+                  "content": "100K+",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 56,
+                  "fontWeight": "900",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "5OQaT",
+                  "name": "s2bLbl",
+                  "fill": "#999999",
+                  "content": "CIUDADANOS",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lwqSt",
+              "name": "div2b",
+              "width": 2,
+              "height": "fill_container",
+              "fill": "#333333"
+            },
+            {
+              "type": "frame",
+              "id": "raeFk",
+              "name": "s2c",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Rl1s5",
+                  "name": "s2cNum",
+                  "fill": "#FFD700",
+                  "content": "15",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 56,
+                  "fontWeight": "900",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "RqH3g",
+                  "name": "s2cLbl",
+                  "fill": "#999999",
+                  "content": "PROYECTOS",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z0pOl",
+              "name": "div2c",
+              "width": 2,
+              "height": "fill_container",
+              "fill": "#333333"
+            },
+            {
+              "type": "frame",
+              "id": "1kZqn",
+              "name": "s2d",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "937R2",
+                  "name": "s2dNum",
+                  "fill": "#FFFFFF",
+                  "content": "2026",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 56,
+                  "fontWeight": "900",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "uADBT",
+                  "name": "s2dLbl",
+                  "fill": "#999999",
+                  "content": "EL AÑO DEL CAMBIO",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "8HGaX",
+          "name": "VisionPorongo",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            100,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "huPax",
+              "name": "visHeader2",
+              "width": "fill_container",
+              "gap": 60,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sAAYm",
+                  "name": "visLeft2",
+                  "width": 480,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OvFU2",
+                      "name": "visPill2",
+                      "fill": "#FF1493",
+                      "padding": [
+                        6,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UdQbJ",
+                          "name": "visPillText2",
+                          "fill": "#FFFFFF",
+                          "content": "VISIÓN PORONGO 2029",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "37NVd",
+                      "name": "visTitle2",
+                      "fill": "#000000",
+                      "content": "UN PORONGO MODERNO, ORDENADO Y SOSTENIBLE",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 40,
+                      "fontWeight": "900",
+                      "letterSpacing": -1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iC0EH",
+                  "name": "visRight2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "2tLTj",
+                      "name": "visSpacer2",
+                      "width": 10,
+                      "height": 40
+                    },
+                    {
+                      "type": "text",
+                      "id": "pLhI4",
+                      "name": "visText2",
+                      "fill": "#757575",
+                      "content": "Construiremos un Porongo moderno, ordenado y sostenible, con economía diversificada, servicios de calidad, territorio planificado, ambiente protegido y gestión transparente.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 18
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FypN4",
+              "name": "VisionGrid",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "df7wD",
+                  "name": "vb2a",
+                  "width": "fill_container",
+                  "fill": "#FF1493",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    40,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Jd93R",
+                      "name": "vb2aNum",
+                      "fill": "#FFFFFF22",
+                      "content": "01",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 48,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W1e8l",
+                      "name": "vb2aTitle",
+                      "fill": "#FFFFFF",
+                      "content": "ORDEN TERRITORIAL",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 18,
+                      "fontWeight": "900",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "wcNe2",
+                      "name": "vb2aDesc",
+                      "fill": "#FFE0F0",
+                      "content": "Planificación urbana estratégica, zonificación ordenada y catastro actualizado.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oBHuP",
+                  "name": "vb2b",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    40,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "D7Xuv",
+                      "name": "vb2bNum",
+                      "fill": "#00000015",
+                      "content": "02",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 48,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wh89L",
+                      "name": "vb2bTitle",
+                      "fill": "#000000",
+                      "content": "DESARROLLO ECONÓMICO",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 18,
+                      "fontWeight": "900",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "z4UVP",
+                      "name": "vb2bDesc",
+                      "fill": "#757575",
+                      "content": "Economía diversificada con emprendimientos locales, turismo, agro y comercio.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wrOer",
+                  "name": "vb2c",
+                  "width": "fill_container",
+                  "fill": "#000000",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    40,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oNTNM",
+                      "name": "vb2cNum",
+                      "fill": "#FFFFFF15",
+                      "content": "03",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 48,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rGUqT",
+                      "name": "vb2cTitle",
+                      "fill": "#FFD700",
+                      "content": "SERVICIOS EFICIENTES",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 18,
+                      "fontWeight": "900",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "psBwP",
+                      "name": "vb2cDesc",
+                      "fill": "#AAAAAA",
+                      "content": "Salud, educación, agua potable y saneamiento para todos los vecinos.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "G6Us9",
+                  "name": "vb2d",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    40,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NBNZn",
+                      "name": "vb2dNum",
+                      "fill": "#00000015",
+                      "content": "04",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 48,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YYpHG",
+                      "name": "vb2dTitle",
+                      "fill": "#000000",
+                      "content": "RÍO PIRAÍ PROTEGIDO",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 18,
+                      "fontWeight": "900",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "lDxwC",
+                      "name": "vb2dDesc",
+                      "fill": "#757575",
+                      "content": "Conservación ambiental, riberas protegidas y programas de limpieza del ecosistema.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QguiL",
+          "name": "Propuestas",
+          "width": "fill_container",
+          "fill": "#F5F5F5",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            100,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "PZY5i",
+              "name": "propsH2",
+              "width": "fill_container",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AanW6",
+                  "name": "propsPill2",
+                  "fill": "#000000",
+                  "padding": [
+                    6,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EZugb",
+                      "name": "propsPillTxt2",
+                      "fill": "#FF1493",
+                      "content": "NUESTRAS PROPUESTAS",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "3Jaw4",
+                  "name": "propsTitleLine",
+                  "width": "fill_container",
+                  "height": 3,
+                  "fill": "#000000"
+                },
+                {
+                  "type": "text",
+                  "id": "t0xF5",
+                  "name": "propsTitle2",
+                  "fill": "#000000",
+                  "content": "UN PLAN REAL PARA TODOS",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 36,
+                  "fontWeight": "900",
+                  "letterSpacing": -1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3XOnl",
+              "name": "PropsGrid",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SSjlc",
+                  "name": "pc1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    36,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sYkmk",
+                      "name": "pc1Dot",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#FF1493"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lZzdu",
+                      "name": "pc1Title",
+                      "fill": "#000000",
+                      "content": "SALUD\nPARA TODOS",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 20,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xlB7w",
+                      "name": "pc1Desc",
+                      "fill": "#757575",
+                      "content": "Modernización de centros de salud, médicos comunitarios y atención para adultos mayores.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bNoLt",
+                  "name": "pc2",
+                  "width": "fill_container",
+                  "fill": "#FF1493",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    36,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KnVr8",
+                      "name": "pc2Dot",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "thkS3",
+                      "name": "pc2Title",
+                      "fill": "#FFFFFF",
+                      "content": "EDUCACIÓN\nDE CALIDAD",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 20,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "w85qx",
+                      "name": "pc2Desc",
+                      "fill": "#FFE0F0",
+                      "content": "Becas estudiantiles, tecnología en aulas y programas de formación técnica para jóvenes.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eDNqG",
+                  "name": "pc3",
+                  "width": "fill_container",
+                  "fill": "#000000",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    36,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zzKv1",
+                      "name": "pc3Dot",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#FFD700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RiBXf",
+                      "name": "pc3Title",
+                      "fill": "#FFFFFF",
+                      "content": "SEGURIDAD\nCIUDADANA",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 20,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hJdPu",
+                      "name": "pc3Desc",
+                      "fill": "#AAAAAA",
+                      "content": "Más patrullaje, cámaras de vigilancia y programas de prevención del delito.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HSG4C",
+                  "name": "pc4",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    36,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NAw38",
+                      "name": "pc4Dot",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#FFD700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mJjuf",
+                      "name": "pc4Title",
+                      "fill": "#000000",
+                      "content": "EMPLEO\nY ECONOMÍA",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 20,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "51p1z",
+                      "name": "pc4Desc",
+                      "fill": "#757575",
+                      "content": "Apoyo a emprendedores locales, mercados modernos y ferias de empleo municipales.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "1fZ64",
+          "name": "FinalCTA",
+          "width": "fill_container",
+          "height": 280,
+          "fill": "#000000",
+          "gap": 80,
+          "padding": [
+            0,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "glnjB",
+              "name": "ctaLeft2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DMjhq",
+                  "name": "ctaTitle2",
+                  "fill": "#FFFFFF",
+                  "content": "TU VOTO ES\nEL CAMBIO",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 72,
+                  "fontWeight": "900",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "frame",
+                  "id": "uMwpP",
+                  "name": "ctaAccent2",
+                  "width": 80,
+                  "height": 8,
+                  "fill": "#FF1493"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4cvJm",
+              "name": "ctaRight2",
+              "width": 480,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OZUnI",
+                  "name": "ctaSub2",
+                  "fill": "#AAAAAA",
+                  "content": "Únete al movimiento que está transformando nuestra ciudad. Juntos construimos el futuro.",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Dgiuy",
+                  "name": "ctaBtns2",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PoUrA",
+                      "name": "ctaBtn2a",
+                      "fill": "#FF1493",
+                      "padding": [
+                        18,
+                        36
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OmduI",
+                          "name": "ctaBtn2aText",
+                          "fill": "#FFFFFF",
+                          "content": "APOYA AHORA",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uYcux",
+                      "name": "ctaBtn2b",
+                      "fill": "#FFD700",
+                      "padding": [
+                        18,
+                        36
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xOzug",
+                          "name": "ctaBtn2bText",
+                          "fill": "#000000",
+                          "content": "COMPARTE",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VL2rt",
+          "name": "Footer",
+          "width": "fill_container",
+          "height": 120,
+          "fill": "#FFFFFF",
+          "padding": [
+            0,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "5RVF7",
+              "name": "foot2Logo",
+              "fill": "#FF1493",
+              "content": "MN",
+              "fontFamily": "DM Sans",
+              "fontSize": 40,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "2FDJb",
+              "name": "foot2Brand",
+              "fill": "#757575",
+              "content": "  Modernidad Nacional — Marisol Negrete Alcaldesa 2026-2031",
+              "fontFamily": "DM Sans",
+              "fontSize": 14
+            },
+            {
+              "type": "frame",
+              "id": "0SAey",
+              "name": "foot2Spacer",
+              "width": "fill_container",
+              "height": 10
+            },
+            {
+              "type": "text",
+              "id": "KdzTM",
+              "name": "foot2Copy",
+              "fill": "#000000",
+              "content": "© 2026 PORONGO",
+              "fontFamily": "DM Sans",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Lk5hv",
+      "x": 3461,
+      "y": 0,
+      "name": "Landing V3 — Sunset",
+      "width": 1440,
+      "fill": "#260D29",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "9MW6p",
+          "name": "Navbar",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#331238",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "TxB2K",
+              "name": "navLogo3",
+              "height": "fill_container",
+              "gap": 10,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oJJt0",
+                  "name": "logoText3",
+                  "fill": "#FF1493",
+                  "content": "MN",
+                  "fontFamily": "Outfit",
+                  "fontSize": 30,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "xHAiZ",
+                  "name": "logoBrand3",
+                  "fill": "#E8C0FF",
+                  "content": "Modernidad Nacional",
+                  "fontFamily": "Outfit",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3iyeV",
+              "name": "navSp3",
+              "width": "fill_container",
+              "height": 10
+            },
+            {
+              "type": "frame",
+              "id": "GvVg8",
+              "name": "navLinks3",
+              "height": "fill_container",
+              "gap": 40,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AVSTX",
+                  "name": "nlink3a",
+                  "fill": "#FFFFFF",
+                  "content": "Inicio",
+                  "fontFamily": "Outfit",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "NwaTe",
+                  "name": "nlink3b",
+                  "fill": "#FFFFFF",
+                  "content": "Propuestas",
+                  "fontFamily": "Outfit",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "0dyIl",
+                  "name": "nlink3c",
+                  "fill": "#FFFFFF",
+                  "content": "Visión",
+                  "fontFamily": "Outfit",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "vdya4",
+                  "name": "nlink3d",
+                  "fill": "#FFFFFF",
+                  "content": "Contacto",
+                  "fontFamily": "Outfit",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "V7ybH",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 740,
+          "fill": "#2d0a4e",
+          "children": [
+            {
+              "type": "frame",
+              "id": "auwRh",
+              "name": "HeroLeft",
+              "width": 780,
+              "height": "fill_container",
+              "fill": "#260D29",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": 80,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "A15Zr",
+                  "name": "heroPill3",
+                  "fill": "#E6007A33",
+                  "cornerRadius": 50,
+                  "padding": [
+                    10,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5wXfH",
+                      "name": "heroPillText3",
+                      "fill": "#FFB3E6",
+                      "content": "✦ Candidata a Alcaldesa · Modernidad Nacional",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "an2Bq",
+                  "name": "heroName3a",
+                  "fill": "#FFFFFF",
+                  "content": "Dra. Marisol",
+                  "fontFamily": "Outfit",
+                  "fontSize": 76,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "nLxGe",
+                  "name": "heroName3b",
+                  "fill": "#FFCC00",
+                  "content": "Negrete",
+                  "fontFamily": "Outfit",
+                  "fontSize": 76,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "frame",
+                  "id": "GX15F",
+                  "name": "heroAlc3",
+                  "fill": "#FFCC00",
+                  "cornerRadius": 50,
+                  "padding": [
+                    12,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mhHH3",
+                      "name": "heroAlcText3",
+                      "fill": "#260D29",
+                      "content": "ALCALDESA 2026–2031",
+                      "fontFamily": "Outfit",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Bveay",
+                  "name": "heroSlogan3",
+                  "fill": "#E8C0FF",
+                  "content": "Porongo moderno. Porongo seguro.\nPorongo con futuro.",
+                  "fontFamily": "Outfit",
+                  "fontSize": 20
+                },
+                {
+                  "type": "frame",
+                  "id": "JBjmJ",
+                  "name": "HeroCTAs",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NEeNX",
+                      "name": "hCta3a",
+                      "fill": "#FF1493",
+                      "cornerRadius": 50,
+                      "padding": [
+                        18,
+                        40
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CSnCn",
+                          "name": "hCta3aText",
+                          "fill": "#FFFFFF",
+                          "content": "Ver Plan de Gobierno",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "5kvZr",
+                      "name": "hCta3b",
+                      "fill": "#331238",
+                      "cornerRadius": 50,
+                      "padding": [
+                        18,
+                        40
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "8p7nS",
+                          "name": "hCta3bText",
+                          "fill": "#FFFFFF",
+                          "content": "Descargar Programa",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D9MrN",
+                  "name": "heroBadges3",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "d5MYV",
+                      "name": "hBadge3a",
+                      "fill": "#331238",
+                      "cornerRadius": 50,
+                      "padding": [
+                        8,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "8tXQr",
+                          "name": "hBadge3aText",
+                          "fill": "#FF9AE0",
+                          "content": "✓ Transparencia",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fGGxV",
+                      "name": "hBadge3b",
+                      "fill": "#331238",
+                      "cornerRadius": 50,
+                      "padding": [
+                        8,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zoTRw",
+                          "name": "hBadge3bText",
+                          "fill": "#FFD700",
+                          "content": "✓ Planificación",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "73Wni",
+                      "name": "hBadge3c",
+                      "fill": "#331238",
+                      "cornerRadius": 50,
+                      "padding": [
+                        8,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NYlQC",
+                          "name": "hBadge3cText",
+                          "fill": "#FF9AE0",
+                          "content": "✓ Gestión cercana",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9COpq",
+              "name": "HeroRight",
+              "width": 660,
+              "height": "fill_container",
+              "fill": "#401647",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SKfzB",
+                  "name": "PhotoWrap",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "brookebalentine",
+                    "link": "https://unsplash.com/@brookebalentine",
+                    "author": "Brooke Balentine"
+                  },
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1750175614279-2f417fbe0722?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyMjQ0NDR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "iu8VJ",
+                  "name": "GlowBar",
+                  "width": "fill_container",
+                  "height": 80,
+                  "fill": "#FF639033",
+                  "gap": 24,
+                  "padding": [
+                    0,
+                    48
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kVlBL",
+                      "name": "heroGlowText",
+                      "fill": "#E6007A",
+                      "content": "\"El futuro de Porongo comienza hoy\"",
+                      "fontFamily": "Outfit",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "i8cls",
+          "name": "StatsBar",
+          "width": "fill_container",
+          "height": 130,
+          "fill": "#E6007A",
+          "padding": [
+            0,
+            100
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "PjCho",
+              "name": "st3a",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "D5zHO",
+                  "name": "st3aNum",
+                  "fill": "#FFFFFF",
+                  "content": "25+",
+                  "fontFamily": "Outfit",
+                  "fontSize": 52,
+                  "fontWeight": "900",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "AE8yz",
+                  "name": "st3aLbl",
+                  "fill": "#FFB3E6",
+                  "content": "Años de Servicio",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QT3rR",
+              "name": "divA3",
+              "width": 1,
+              "height": 60,
+              "fill": "#FFFFFF44"
+            },
+            {
+              "type": "frame",
+              "id": "NNIG1",
+              "name": "st3b",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cazRU",
+                  "name": "st3bNum",
+                  "fill": "#FFCC00",
+                  "content": "100K+",
+                  "fontFamily": "Outfit",
+                  "fontSize": 52,
+                  "fontWeight": "900",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "5navg",
+                  "name": "st3bLbl",
+                  "fill": "#FFB3E6",
+                  "content": "Ciudadanos Comprometidos",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3hbQe",
+              "name": "divB3",
+              "width": 1,
+              "height": 60,
+              "fill": "#FFFFFF44"
+            },
+            {
+              "type": "frame",
+              "id": "v99zR",
+              "name": "st3c",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MSSMU",
+                  "name": "st3cNum",
+                  "fill": "#FFFFFF",
+                  "content": "15",
+                  "fontFamily": "Outfit",
+                  "fontSize": 52,
+                  "fontWeight": "900",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "EiR9B",
+                  "name": "st3cLbl",
+                  "fill": "#FFB3E6",
+                  "content": "Proyectos Municipales",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qooWC",
+              "name": "divC3",
+              "width": 1,
+              "height": 60,
+              "fill": "#FFFFFF44"
+            },
+            {
+              "type": "frame",
+              "id": "wiHhR",
+              "name": "st3d",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "35iJp",
+                  "name": "st3dNum",
+                  "fill": "#FFCC00",
+                  "content": "5 Años",
+                  "fontFamily": "Outfit",
+                  "fontSize": 52,
+                  "fontWeight": "900",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "k1zbT",
+                  "name": "st3dLbl",
+                  "fill": "#FFB3E6",
+                  "content": "Plan de Gobierno",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UaDyr",
+          "name": "VisionPorongo",
+          "width": "fill_container",
+          "fill": "#331238",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "rcZ0W",
+              "name": "visH3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                80,
+                100
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YjUIh",
+                  "name": "visPill3",
+                  "fill": "#FF149333",
+                  "cornerRadius": 50,
+                  "padding": [
+                    8,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OH1xr",
+                      "name": "visPillTxt3",
+                      "fill": "#FF9AE0",
+                      "content": "✦ Visión Porongo 2029",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "wVZHF",
+                  "name": "visTitle3",
+                  "fill": "#FFFFFF",
+                  "content": "Un Porongo Moderno, Ordenado y Sostenible",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "d1kbH",
+                  "name": "visDesc3",
+                  "fill": "#E8C0FF",
+                  "content": "Construiremos un Porongo moderno, ordenado y sostenible, con economía diversificada, servicios de calidad, \nterritorio planificado, ambiente protegido y gestión transparente.",
+                  "fontFamily": "Outfit",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "STdlu",
+              "name": "Row1_OrdenTerritorial",
+              "width": "fill_container",
+              "height": 320,
+              "fill": "#260D29",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eRUsD",
+                  "name": "VisualPanel",
+                  "width": 560,
+                  "height": "fill_container",
+                  "fill": "#E6007A",
+                  "layout": "vertical",
+                  "padding": [
+                    48,
+                    56
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0RoG5",
+                      "name": "row1Num",
+                      "fill": "#FFFFFF33",
+                      "content": "01",
+                      "fontFamily": "Outfit",
+                      "fontSize": 160,
+                      "fontWeight": "900",
+                      "letterSpacing": -8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Se1SK",
+                      "name": "row1Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "#331238",
+                      "cornerRadius": 32
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BbecE",
+                  "name": "TextPanel",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#260D29",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    48,
+                    64
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Vv881",
+                      "name": "row1Pill",
+                      "fill": "#FF149333",
+                      "cornerRadius": 50,
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZymJ4",
+                          "name": "row1PillTxt",
+                          "fill": "#FF9AE0",
+                          "content": "01 / 04",
+                          "fontFamily": "Outfit",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "zhbsi",
+                      "name": "row1Title",
+                      "fill": "#FFFFFF",
+                      "content": "Orden Territorial",
+                      "fontFamily": "Outfit",
+                      "fontSize": 38,
+                      "fontWeight": "800",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "text",
+                      "id": "oB4FX",
+                      "name": "row1Desc",
+                      "fill": "#E8C0FF",
+                      "content": "Planificación urbana estratégica, zonificación ordenada y catastro municipal\n actualizado para un territorio bien distribuido y con futuro.",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UcbEE",
+                      "name": "row1Line",
+                      "width": 60,
+                      "height": 4,
+                      "fill": "#FF1493",
+                      "cornerRadius": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4CQhK",
+              "name": "Row2_DesarrolloEconomico",
+              "width": "fill_container",
+              "height": 320,
+              "fill": "#331238",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8zDcy",
+                  "name": "TextPanel",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#331238",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    48,
+                    64
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bnUfW",
+                      "name": "row2Pill",
+                      "fill": "#FFD70033",
+                      "cornerRadius": 50,
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LIrtN",
+                          "name": "row2PillTxt",
+                          "fill": "#FFD700",
+                          "content": "02 / 04",
+                          "fontFamily": "Outfit",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "iqoIe",
+                      "name": "row2Title",
+                      "fill": "#FFFFFF",
+                      "content": "Desarrollo Económico",
+                      "fontFamily": "Outfit",
+                      "fontSize": 38,
+                      "fontWeight": "800",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "text",
+                      "id": "4oKtn",
+                      "name": "row2Desc",
+                      "fill": "#E8C0FF",
+                      "content": "Economía diversificada con emprendimientos locales, turismo, agro y comercio bien organizado. \nPorongo productivo y próspero.",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OaJ55",
+                      "name": "row2Line",
+                      "width": 60,
+                      "height": 4,
+                      "fill": "#FFD700",
+                      "cornerRadius": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bpIcD",
+                  "name": "VisualPanel",
+                  "width": 560,
+                  "height": "fill_container",
+                  "fill": "#FFD700",
+                  "layout": "vertical",
+                  "padding": [
+                    48,
+                    56
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "I3L7o",
+                      "name": "row2NumBg",
+                      "fill": "#00000018",
+                      "content": "02",
+                      "fontFamily": "Outfit",
+                      "fontSize": 160,
+                      "fontWeight": "900",
+                      "letterSpacing": -8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SeCks",
+                      "name": "row2Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "#2D0A4E44",
+                      "cornerRadius": 32
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PtJpa",
+              "name": "Row3_ServiciosEficientes",
+              "width": "fill_container",
+              "height": 320,
+              "fill": "#260D29",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wAzZg",
+                  "name": "VisualPanel",
+                  "width": 560,
+                  "height": "fill_container",
+                  "fill": "#7B2FBE",
+                  "layout": "vertical",
+                  "padding": [
+                    48,
+                    56
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "snSkD",
+                      "name": "row3NumBg",
+                      "fill": "#FFFFFF10",
+                      "content": "03",
+                      "fontFamily": "Outfit",
+                      "fontSize": 160,
+                      "fontWeight": "900",
+                      "letterSpacing": -8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bc7Sk",
+                      "name": "row3Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "#FF1493",
+                      "cornerRadius": 32
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Bf8Ps",
+                  "name": "TextPanel",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#260D29",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    48,
+                    64
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Vwy5M",
+                      "name": "row3Pill",
+                      "fill": "#7B2FBE44",
+                      "cornerRadius": 50,
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "X5ZFv",
+                          "name": "row3PillTxt",
+                          "fill": "#E8C0FF",
+                          "content": "03 / 04",
+                          "fontFamily": "Outfit",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "tLolL",
+                      "name": "row3Title",
+                      "fill": "#FFFFFF",
+                      "content": "Servicios Públicos Eficientes",
+                      "fontFamily": "Outfit",
+                      "fontSize": 38,
+                      "fontWeight": "800",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "text",
+                      "id": "OdTZY",
+                      "name": "row3Desc",
+                      "fill": "#E8C0FF",
+                      "content": "Salud, educación, agua potable y saneamiento de calidad para todos los vecinos de Porongo sin excepción.",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qpC6C",
+                      "name": "row3Line",
+                      "width": 60,
+                      "height": 4,
+                      "fill": "#7B2FBE",
+                      "cornerRadius": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "B8WR4",
+              "name": "Row4_RioPirai",
+              "width": "fill_container",
+              "height": 320,
+              "fill": "#331238",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "08e92",
+                  "name": "TextPanel",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#331238",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    48,
+                    64
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zN5PO",
+                      "name": "row4Pill",
+                      "fill": "#FF149333",
+                      "cornerRadius": 50,
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FebiQ",
+                          "name": "row4PillTxt",
+                          "fill": "#FF9AE0",
+                          "content": "04 / 04",
+                          "fontFamily": "Outfit",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "V9x7d",
+                      "name": "row4Title",
+                      "fill": "#FFFFFF",
+                      "content": "Protección del Río Piraí",
+                      "fontFamily": "Outfit",
+                      "fontSize": 38,
+                      "fontWeight": "800",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "text",
+                      "id": "U4mDe",
+                      "name": "row4Desc",
+                      "fill": "#E8C0FF",
+                      "content": "Conservación ambiental, riberas protegidas y programas comunitarios \nde limpieza del ecosistema fluvial de Porongo.",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Sysrb",
+                      "name": "row4Line",
+                      "width": 60,
+                      "height": 4,
+                      "fill": "#FF1493",
+                      "cornerRadius": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Zbuc3",
+                  "name": "VisualPanel",
+                  "width": 560,
+                  "height": "fill_container",
+                  "fill": "#E6007A4D",
+                  "layout": "vertical",
+                  "padding": [
+                    48,
+                    56
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Wn01G",
+                      "name": "row4NumBg",
+                      "fill": "#FFFFFF33",
+                      "content": "04",
+                      "fontFamily": "Outfit",
+                      "fontSize": 160,
+                      "fontWeight": "900",
+                      "letterSpacing": -8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K5lXx",
+                      "name": "row4Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "#FFD700",
+                      "cornerRadius": 32
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GX4bc",
+          "name": "Propuestas",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": 100,
+          "children": [
+            {
+              "type": "frame",
+              "id": "PPBMm",
+              "name": "propsH3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1AL6g",
+                  "name": "propsPill3",
+                  "fill": "#FFCC0044",
+                  "cornerRadius": 50,
+                  "padding": [
+                    8,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HVhsY",
+                      "name": "propsPillTxt3",
+                      "fill": "#FFD700",
+                      "content": "✦ Nuestras Propuestas",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "2w718",
+                  "name": "propsTitle3",
+                  "fill": "#260D29",
+                  "content": "Un Plan Real para Todos",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "geFjn",
+                  "name": "propsSub3",
+                  "fill": "#401647",
+                  "content": "Con compromiso, experiencia y voluntad política para transformar nuestra ciudad.",
+                  "fontFamily": "Outfit",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "0vZJD",
+              "name": "TabsNavigation",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CInnZ",
+                  "name": "tab1",
+                  "fill": "#E6007A",
+                  "cornerRadius": 50,
+                  "padding": [
+                    14,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gU1mp",
+                      "name": "tab1Txt",
+                      "fill": "#FFFFFF",
+                      "content": "Salud",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yszqZ",
+                  "name": "tab2",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 50,
+                  "padding": [
+                    14,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8ePeT",
+                      "name": "tab2Txt",
+                      "fill": "#260D29",
+                      "content": "Educación",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7KFme",
+                  "name": "tab3",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 50,
+                  "padding": [
+                    14,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CAd7H",
+                      "name": "tab3Txt",
+                      "fill": "#260D29",
+                      "content": "Seguridad",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rBid7",
+                  "name": "tab4",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 50,
+                  "padding": [
+                    14,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "X88tc",
+                      "name": "tab4Txt",
+                      "fill": "#260D29",
+                      "content": "Economía",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "O0ImD",
+              "name": "TabContentPanel",
+              "width": "fill_container",
+              "height": 460,
+              "fill": "#331238",
+              "cornerRadius": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wI8h3",
+                  "name": "TabPhoto",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "elaisaak",
+                    "link": "https://unsplash.com/@elaisaak",
+                    "author": "Isaac Constantino"
+                  },
+                  "width": 500,
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1762379972568-baa79754aca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyMjYwNjR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 32
+                },
+                {
+                  "type": "frame",
+                  "id": "bxEkh",
+                  "name": "TabInfo",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#331238",
+                  "cornerRadius": 32,
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    64,
+                    80
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wpm6t",
+                      "name": "tabPill",
+                      "fill": "#E6007A22",
+                      "cornerRadius": 50,
+                      "padding": [
+                        8,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cabPR",
+                          "name": "tabPillTxt",
+                          "fill": "#FFB3E6",
+                          "content": "Propuesta Activa — 01",
+                          "fontFamily": "Outfit",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "opXOe",
+                      "name": "tabTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Salud para Todos",
+                      "fontFamily": "Outfit",
+                      "fontSize": 48,
+                      "fontWeight": "800",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "text",
+                      "id": "iz3Ht",
+                      "name": "tabDesc",
+                      "fill": "#FFB3E6",
+                      "content": "Modernización integral de los centros de salud municipales, \nintegración de médicos comunitarios y atención médica digna y gratuita \nenfocada en nuestros adultos mayores en cada barrio de Porongo.",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MZfr9",
+                      "name": "tabAcc",
+                      "width": 60,
+                      "height": 4,
+                      "fill": "#FFCC00",
+                      "cornerRadius": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bstFA",
+                      "name": "tabCta",
+                      "fill": "#E6007A",
+                      "cornerRadius": 50,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JcVI7",
+                          "name": "tabCtaTxt",
+                          "fill": "#FFFFFF",
+                          "content": "Descargar Detalle Específico",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "5muZf",
+          "name": "FinalCTA",
+          "width": "fill_container",
+          "fill": "#E6007A",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 100,
+          "children": [
+            {
+              "type": "frame",
+              "id": "j9ydK",
+              "name": "cta3Gold",
+              "fill": "#FFD70033",
+              "cornerRadius": 50,
+              "padding": [
+                8,
+                22
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "3td9n",
+                  "name": "cta3GoldText",
+                  "fill": "#FFD700",
+                  "content": "✦ Sumáte al Cambio",
+                  "fontFamily": "Outfit",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "pYGzL",
+              "name": "cta3Title",
+              "fill": "#FFFFFF",
+              "content": "¡Tu Voto es el Cambio que Necesitamos!",
+              "fontFamily": "Outfit",
+              "fontSize": 54,
+              "fontWeight": "900",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "aCxX4",
+              "name": "cta3Sub",
+              "fill": "#FFB3E6",
+              "content": "Únete al movimiento que está transformando nuestra ciudad. Juntos construimos el futuro.",
+              "fontFamily": "Outfit",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "2jjIS",
+              "name": "cta3Btns",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "g2m9I",
+                  "name": "cta3BtnA",
+                  "fill": "#331238",
+                  "cornerRadius": 50,
+                  "padding": [
+                    20,
+                    48
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AsUQZ",
+                      "name": "cta3BtnAText",
+                      "fill": "#E6007A",
+                      "content": "Apoya a Marisol",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ew4kY",
+                  "name": "cta3BtnB",
+                  "fill": "#FFCC00",
+                  "cornerRadius": 50,
+                  "padding": [
+                    20,
+                    48
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dVHqT",
+                      "name": "cta3BtnBText",
+                      "fill": "#260D29",
+                      "content": "Comparte el Mensaje",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "800"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PJ3qA",
+          "name": "Footer",
+          "width": "fill_container",
+          "height": 100,
+          "fill": "#1A0632",
+          "padding": [
+            0,
+            100
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "cSuJ6",
+              "name": "foot3Logo",
+              "fill": "#E6007A",
+              "content": "MN",
+              "fontFamily": "Outfit",
+              "fontSize": 36,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "OZzqX",
+              "name": "foot3Brand",
+              "fill": "#9060B0",
+              "content": "  Modernidad Nacional · Marisol Negrete Alcaldesa 2026-2031",
+              "fontFamily": "Outfit",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "T3NLW",
+              "name": "foot3Sp",
+              "width": "fill_container",
+              "height": 10
+            },
+            {
+              "type": "text",
+              "id": "Nb3e1",
+              "name": "foot3Copy",
+              "fill": "#7040A0",
+              "content": "© 2026 Porongo",
+              "fontFamily": "Outfit",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
