@@ -11,9 +11,9 @@ export function SiteFooter({ footer }: SiteFooterProps) {
       <div className="flex w-full flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-3">
           <Image src="/images/logo-mn.png" alt="Logo MN" width={48} height={26} />
-          <p className="text-[12px] text-textMuted sm:text-[13px]">{footer.left}</p>
+          <p className="break-words text-[12px] text-textMuted sm:text-[13px]">{footer.left}</p>
         </div>
-        <p className="text-[12px] text-textMuted sm:text-[13px]">{footer.right}</p>
+        <p className="break-words text-[12px] text-textMuted sm:text-[13px]">{footer.right}</p>
       </div>
     </footer>
   );
