@@ -1,46 +1,17 @@
-@tailwind base;
+﻿@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --color-bg: #f8f8f8;
-  --color-surface: #ffffff;
-  --color-surface-alt: #f24bb2;
+  --color-bg: #0d0d0d;
+  --color-surface: #0d0d0d;
+  --color-surface-alt: #f20587;
   --color-brand-pink: #f20587;
   --color-brand-pink-light: #f24bb2;
   --color-brand-pink-pastel: #f2a7c6;
   --color-brand-yellow: #f2cb05;
   --color-brand-yellow-dark: #f2b705;
   --color-brand-violet: #f24bb2;
-  --color-black-main: #ffffff;
-  --color-white-main: #0d0d0d;
-  --color-gray-light: #f2f2f2;
-  --color-hero-bg: #f2a7c6;
-  --color-hero-panel: #ffffff;
-  --color-soft-border: #0d0d0d3d;
-  --color-soft-surface: #0d0d0d12;
-  --color-soft-dark: #ffffff66;
-  --color-card-bg: #ffffff;
-  --color-card-surface: #ffffff;
-  --color-tab-inactive-bg: #f1f1f1;
-  --color-tab-inactive-text: #1a1a1a;
-  --color-overlay-strong: #0d0d0d44;
-  --color-text-primary: #0d0d0d;
-  --color-text-muted: #333333;
-  --color-page-light: #f2f2f2;
-
-  --font-size-body: 1.0625rem;
-  --font-size-body-sm: 1rem;
-  --font-size-nav: 1.0625rem;
-  --font-size-h1: clamp(2.2rem, 5vw, 4.25rem);
-  --font-size-h2: clamp(1.8rem, 3.8vw, 3rem);
-  --font-size-h3: clamp(1.4rem, 2.8vw, 2.1rem);
-}
-
-:root[data-theme="dark"] {
-  --color-bg: #0d0d0d;
-  --color-surface: #0d0d0d;
-  --color-surface-alt: #f20587;
   --color-black-main: #0d0d0d;
   --color-white-main: #ffffff;
   --color-gray-light: #d9d9d9;
@@ -57,6 +28,35 @@
   --color-text-primary: #ffffff;
   --color-text-muted: #d9d9d9;
   --color-page-light: #d9d9d9;
+
+  --font-size-body: 1.0625rem;
+  --font-size-body-sm: 1rem;
+  --font-size-nav: 1.0625rem;
+  --font-size-h1: clamp(2.2rem, 5vw, 4.25rem);
+  --font-size-h2: clamp(1.8rem, 3.8vw, 3rem);
+  --font-size-h3: clamp(1.4rem, 2.8vw, 2.1rem);
+}
+
+:root[data-theme="light"] {
+  --color-bg: #f8f8f8;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f24bb2;
+  --color-black-main: #ffffff;
+  --color-white-main: #0d0d0d;
+  --color-gray-light: #f2f2f2;
+  --color-hero-bg: #f2a7c6;
+  --color-hero-panel: #ffffff;
+  --color-soft-border: #0d0d0d3d;
+  --color-soft-surface: #0d0d0d12;
+  --color-soft-dark: #ffffff66;
+  --color-card-bg: #ffffff;
+  --color-card-surface: #ffffff;
+  --color-tab-inactive-bg: #f1f1f1;
+  --color-tab-inactive-text: #1a1a1a;
+  --color-overlay-strong: #0d0d0d44;
+  --color-text-primary: #0d0d0d;
+  --color-text-muted: #333333;
+  --color-page-light: #f2f2f2;
 }
 
 * {
@@ -148,10 +148,11 @@ a {
   text-shadow: none;
 }
 
-:root:not([data-theme="dark"]) .landing-pop h1,
-:root:not([data-theme="dark"]) .landing-pop h2,
-:root:not([data-theme="dark"]) .landing-pop h3 {
+:root[data-theme="light"] .landing-pop h1,
+:root[data-theme="light"] .landing-pop h2,
+:root[data-theme="light"] .landing-pop h3 {
   text-shadow:
     0 1px 0 rgba(255, 255, 255, 0.5),
     0 8px 18px rgba(13, 13, 13, 0.14);
 }
+
