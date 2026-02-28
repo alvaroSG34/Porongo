@@ -1,7 +1,6 @@
 ﻿"use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import type { LandingContent } from "@/content/schema";
 
@@ -13,7 +12,7 @@ export function Navbar({ nav }: NavbarProps) {
   const sectionIds = useMemo(() => nav.items.map((item) => item.href.replace("#", "")), [nav.items]);
   const [activeId, setActiveId] = useState(sectionIds[0] ?? "");
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [theme, setTheme] = useState<"dark" | "light">("dark");
+  const [theme, setTheme] = useState<"dark" | "light">("light");
 
   useEffect(() => {
     const onScroll = () => {
@@ -54,17 +53,15 @@ export function Navbar({ nav }: NavbarProps) {
   }, []);
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("mn_theme");
-    const nextTheme = savedTheme === "light" ? "light" : "dark";
-    setTheme(nextTheme);
-    document.documentElement.setAttribute("data-theme", nextTheme);
+    setTheme("light");
+    document.documentElement.setAttribute("data-theme", "light");
+    localStorage.removeItem("mn_theme");
   }, []);
 
   const toggleTheme = () => {
     const nextTheme = theme === "dark" ? "light" : "dark";
     setTheme(nextTheme);
     document.documentElement.setAttribute("data-theme", nextTheme);
-    localStorage.setItem("mn_theme", nextTheme);
   };
 
   return (
@@ -74,8 +71,7 @@ export function Navbar({ nav }: NavbarProps) {
       }`}
     >
       <nav className="flex h-20 w-full items-center gap-4 px-4 sm:px-6 md:px-10" aria-label="Principal">
-        <a href="#inicio" className="focus-ring inline-flex items-center gap-3 rounded-md">
-          <Image src="/images/logo-mn.png" alt="Logo Modernidad Nacional" width={34} height={20} />
+        <a href="#inicio" className="focus-ring inline-flex items-center rounded-md">
           <span className="font-heading text-[14px] font-semibold text-textPrimary sm:text-[15px]">{nav.brand}</span>
         </a>
 
