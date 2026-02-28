@@ -58,7 +58,7 @@ export function HeroSection({ hero }: HeroSectionProps) {
             ))}
           </ul>
         </div>
-        <div className="relative min-h-[360px] bg-[#f2a7c6] sm:min-h-[480px] lg:min-h-[735px]">
+        <div className="relative min-h-[360px] bg-[var(--color-hero-bg)] sm:min-h-[480px] lg:min-h-[735px]">
           <Image
             src="/images/marisol-hero.png"
             alt="Dra. Marisol Negrete"
@@ -67,8 +67,6 @@ export function HeroSection({ hero }: HeroSectionProps) {
             style={{ objectPosition: "center bottom" }}
             priority
           />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#f2058733] via-transparent to-[#f24bb226]" />
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-10 bg-gradient-to-r from-[#e0398d] to-transparent" />
         </div>
       </div>
     </section>

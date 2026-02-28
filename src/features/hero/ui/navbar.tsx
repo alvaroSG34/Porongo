@@ -58,12 +58,6 @@ export function Navbar({ nav }: NavbarProps) {
     document.documentElement.setAttribute("data-theme", "dark");
   }, []);
 
-  const toggleTheme = () => {
-    const nextTheme = theme === "dark" ? "light" : "dark";
-    setTheme(nextTheme);
-    document.documentElement.setAttribute("data-theme", nextTheme);
-  };
-
   return (
     <header
       className={`sticky top-0 z-50 border-b backdrop-blur-md ${
@@ -137,18 +131,6 @@ export function Navbar({ nav }: NavbarProps) {
           })}
         </ul>
 
-        <button
-          type="button"
-          onClick={toggleTheme}
-          className={`focus-ring ml-2 hidden min-h-11 items-center rounded-full border px-4 text-[14px] font-semibold transition-colors md:inline-flex ${
-            theme === "dark"
-              ? "border-[#ffffff66] text-white hover:bg-[#ffffff1a]"
-              : "border-[#0d0d0d55] text-[#0d0d0d] hover:bg-[#0d0d0d12]"
-          }`}
-        >
-          {theme === "dark" ? "Modo claro" : "Modo oscuro"}
-        </button>
-
         <a
           href="#contacto"
           className="focus-ring ml-auto hidden min-h-11 items-center rounded-full bg-brandPink px-6 text-[15px] font-semibold text-white transition-transform hover:-translate-y-0.5 hover:brightness-110 md:inline-flex"
@@ -203,17 +185,6 @@ export function Navbar({ nav }: NavbarProps) {
             >
               Apoya a Marisol
             </a>
-            <button
-              type="button"
-              onClick={toggleTheme}
-              className={`focus-ring mt-3 inline-flex min-h-11 w-full items-center justify-center rounded-full border px-6 text-[15px] font-semibold ${
-                theme === "dark"
-                  ? "border-[#ffffff66] text-white hover:bg-[#ffffff14]"
-                  : "border-[#0d0d0d55] text-[#0d0d0d] hover:bg-[#0d0d0d10]"
-              }`}
-            >
-              {theme === "dark" ? "Modo claro" : "Modo oscuro"}
-            </button>
           </motion.div>
         )}
       </AnimatePresence>
