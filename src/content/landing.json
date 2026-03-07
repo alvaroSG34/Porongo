@@ -1,207 +1,316 @@
-﻿{
-    "nav":  {
-                "brand":  "Modernidad Nacional",
-                "items":  [
-                              {
-                                  "label":  "Inicio",
-                                  "href":  "#inicio"
-                              },
-                              {
-                                  "label":  "Propuestas",
-                                  "href":  "#propuestas"
-                              },
-                              {
-                                  "label":  "Visión",
-                                  "href":  "#vision"
-                              },
-                              {
-                                  "label":  "Contacto",
-                                  "href":  "#contacto"
-                              }
-                          ]
-            },
-    "hero":  {
-                 "badge":  "B Candidata a Alcaldesa - Modernidad Nacional",
-                 "titleTop":  "Dra. Marisol",
-                 "titleAccent":  "Negrete",
-                 "officePeriod":  "ALCALDESA 2026-2031",
-                 "summary":  "Porongo moderno. Porongo seguro. Porongo con futuro.",
-                 "buttons":  [
-                                 {
-                                     "label":  "Ver Plan de Gobierno",
-                                     "variant":  "primary"
-                                 },
-                                 {
-                                     "label":  "Descargar Programa",
-                                     "variant":  "ghost"
-                                 }
-                             ],
-                 "chips":  [
-                               "Transparencia",
-                               "Planificación",
-                               "Gestión cercana"
-                           ]
-             },
-    "metrics":  [
-                    {
-                        "value":  "25+",
-                        "label":  "Años de Servicio"
-                    },
-                    {
-                        "value":  "100K+",
-                        "label":  "Ciudadanos Comprometidos"
-                    },
-                    {
-                        "value":  "15",
-                        "label":  "Proyectos Municipales"
-                    },
-                    {
-                        "value":  "5 Años",
-                        "label":  "Plan de Gobierno"
-                    }
-                ],
-    "vision":  {
-                   "badge":  "B Visión Porongo 2029",
-                   "title":  "Un Porongo Moderno, Ordenado y Sostenible",
-                   "description":  "Construiremos un Porongo moderno, ordenado y sostenible, con economía diversificada, servicios de calidad, territorio planificado, ambiente protegido y gestión transparente."
-               },
-    "pillars":  [
-                    {
-                        "id":  "orden-territorial",
-                        "indexLabel":  "01 / 04",
-                        "title":  "Orden Territorial",
-                        "description":  "Planificación urbana estratégica, zonificación ordenada y catastro municipal actualizado para un territorio bien distribuido y con futuro.",
-                        "accentColor":  "#F20587"
-                    },
-                    {
-                        "id":  "desarrollo-economico",
-                        "indexLabel":  "02 / 04",
-                        "title":  "Desarrollo Económico",
-                        "description":  "Economía diversificada con emprendimientos locales, turismo, agro y comercio bien organizado. Porongo productivo y próspero.",
-                        "accentColor":  "#F2CB05"
-                    },
-                    {
-                        "id":  "servicios-publicos",
-                        "indexLabel":  "03 / 04",
-                        "title":  "Servicios Públicos Eficientes",
-                        "description":  "Salud, educación, agua potable y saneamiento de calidad para todos los vecinos de Porongo sin excepción.",
-                        "accentColor":  "#F24BB2"
-                    },
-                    {
-                        "id":  "proteccion-rio-pirai",
-                        "indexLabel":  "04 / 04",
-                        "title":  "Protección del Río Piraí",
-                        "description":  "Conservación ambiental, áreas protegidas y programas comunitarios de limpieza del ecosistema fluvial de Porongo.",
-                        "accentColor":  "#F2A7C6"
-                    }
-                ],
-    "proposals":  {
-                      "badge":  "B Nuestras Propuestas",
-                      "title":  "Un Plan Real para Todos",
-                      "subtitle":  "Con compromiso, experiencia y voluntad politica para transformar nuestra ciudad.",
-                      "tabs":  [
-                                   {
-                                       "key":  "salud",
-                                       "label":  "Salud"
-                                   },
-                                   {
-                                       "key":  "educacion",
-                                       "label":  "Educacion"
-                                   },
-                                   {
-                                       "key":  "seguridad",
-                                       "label":  "Seguridad"
-                                   },
-                                   {
-                                       "key":  "economia",
-                                       "label":  "Economia"
-                                   }
-                               ],
-                      "items":  {
-                                    "salud":  {
-                                                  "slug":  "salud-para-todos",
-                                                  "category":  "Propuesta Activa - 01",
-                                                  "title":  "Salud para Todos",
-                                                  "summary":  "Modernizacion integral de los centros de salud municipales, integracion de medicos comunitarios y atencion medica digna para cada barrio de Porongo.",
-                                                  "impacts":  [
-                                                                  "Centros renovados",
-                                                                  "Atencion comunitaria",
-                                                                  "Cobertura para adultos mayores"
-                                                              ],
-                                                  "cta":  "Descargar Detalle Especifico",
-                                                  "image":  {
-                                                                "src":  "/images/Salud.jpg",
-                                                                "alt":  "Ciudad representando propuesta de salud",
-                                                                "width":  500,
-                                                                "height":  520
-                                                            }
-                                              },
-                                    "educacion":  {
-                                                      "slug":  "educacion-con-futuro",
-                                                      "category":  "Propuesta Activa - 02",
-                                                      "title":  "Educacion con Futuro",
-                                                      "summary":  "Mejoraremos infraestructura educativa, conectividad digital y programas de apoyo para garantizar aprendizaje de calidad desde la primera infancia.",
-                                                      "impacts":  [
-                                                                      "Escuelas equipadas",
-                                                                      "Formacion docente",
-                                                                      "Becas por rendimiento"
-                                                                  ],
-                                                      "cta":  "Descargar Plan Educativo",
-                                                      "image":  {
-                                                                    "src":  "/images/proposal-educacion.jpeg",
-                                                                    "alt":  "Entorno urbano para propuesta de educacion",
-                                                                    "width":  500,
-                                                                    "height":  520
-                                                                }
-                                                  },
-                                    "seguridad":  {
-                                                      "slug":  "seguridad-vecinal",
-                                                      "category":  "Propuesta Activa - 03",
-                                                      "title":  "Seguridad Vecinal Inteligente",
-                                                      "summary":  "Fortaleceremos la prevencion con iluminacion publica, patrullaje coordinado y respuesta rapida en zonas de mayor riesgo del municipio.",
-                                                      "impacts":  [
-                                                                      "Patrullaje inteligente",
-                                                                      "Calles mejor iluminadas",
-                                                                      "Respuesta rapida 24/7"
-                                                                  ],
-                                                      "cta":  "Descargar Plan de Seguridad",
-                                                      "image":  {
-                                                                    "src":  "/images/proposal-seguridad.png",
-                                                                    "alt":  "Movilidad urbana para propuesta de seguridad",
-                                                                    "width":  500,
-                                                                    "height":  520
-                                                                }
-                                                  },
-                                    "economia":  {
-                                                     "slug":  "economia-productiva",
-                                                     "category":  "Propuesta Activa - 04",
-                                                     "title":  "Economia Productiva Local",
-                                                     "summary":  "Impulsaremos emprendimientos, turismo y comercio local con incentivos, capacitacion y articulacion publico-privada para generar empleo formal.",
-                                                     "impacts":  [
-                                                                     "Apoyo a emprendedores",
-                                                                     "Turismo activo",
-                                                                     "Empleo local formal"
-                                                                 ],
-                                                     "cta":  "Descargar Plan Economico",
-                                                     "image":  {
-                                                                   "src":  "/images/proposal-economia.png",
-                                                                   "alt":  "Actividad local para propuesta economica",
-                                                                   "width":  500,
-                                                                   "height":  520
-                                                               }
-                                                 }
-                                }
-                  },
-    "finalCta":  {
-                     "badge":  "B Súmate al Cambio",
-                     "title":  "¡Tu Voto es el Cambio que Necesitamos!",
-                     "description":  "Únete al movimiento que está transformando nuestra ciudad. Juntos construimos el futuro.",
-                     "primary":  "Apoya a Marisol",
-                     "secondary":  "Comparte el Mensaje"
-                 },
-    "footer":  {
-                   "left":  "Modernidad Nacional · Marisol Negrete Alcaldesa 2026-2031",
-                   "right":  "© 2026 Porongo"
-               }
+{
+  "nav": {
+    "brand": "Modernidad Nacional",
+    "items": [
+      {
+        "label": "Inicio",
+        "href": "#inicio"
+      },
+      {
+        "label": "Propuestas",
+        "href": "#propuestas"
+      },
+      {
+        "label": "Vision",
+        "href": "#vision"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      }
+    ]
+  },
+  "hero": {
+    "badge": "B Gestion, Transparencia y Resultados",
+    "titleTop": "Dra. Marisol",
+    "titleAccent": "Negrete",
+    "officePeriod": "ALCALDESA 2026-2031",
+    "summary": "Por un Porongo moderno, productivo y seguro.",
+    "buttons": [
+      {
+        "label": "Ver Plan de Gobierno",
+        "variant": "primary"
+      },
+      {
+        "label": "Descargar Programa",
+        "variant": "ghost"
+      }
+    ],
+    "chips": [
+      "Alcaldia en tu barrio",
+      "Cero corrupcion",
+      "Resultados para tu familia"
+    ]
+  },
+  "metrics": [
+    {
+      "value": "9",
+      "label": "Propuestas estrategicas"
+    },
+    {
+      "value": "4",
+      "label": "Zonas con subalcaldias"
+    },
+    {
+      "value": "24/7",
+      "label": "Seguridad coordinada"
+    },
+    {
+      "value": "100%",
+      "label": "Compromiso con accesibilidad"
+    }
+  ],
+  "vision": {
+    "badge": "B Vision de Gobierno 2026-2031",
+    "title": "Gestion cercana, transparente y con resultados para Porongo",
+    "description": "Nuestro municipio merece una gestion que llegue a cada zona, combata la burocracia y convierta cada recurso en obras, empleo, servicios y seguridad para la gente."
+  },
+  "pillars": [
+    {
+      "id": "gobierno-cercano",
+      "indexLabel": "01 / 04",
+      "title": "Gobierno Cercano y Transparente",
+      "description": "Subalcaldias en Urubo, Santa Fe, Los Batos y Terebinto; edificio municipal propio y tramites digitales para eliminar filas, extorsion y corrupcion.",
+      "accentColor": "#F20587"
+    },
+    {
+      "id": "empleo-productivo",
+      "indexLabel": "02 / 04",
+      "title": "Trabajo y Economia Local",
+      "description": "Prioridad laboral para poronguenos, desarrollo urbano planificado y fortalecimiento de cadenas productivas como achachairu, miel, citricos y cafe.",
+      "accentColor": "#F2CB05"
+    },
+    {
+      "id": "servicios-obras",
+      "indexLabel": "03 / 04",
+      "title": "Salud, Educacion y Obras Inteligentes",
+      "description": "Inversion en salud, bachillerato tecnico, apoyo al adulto mayor, saneamiento basico, conectividad vial y transporte seguro para todo el municipio.",
+      "accentColor": "#F24BB2"
+    },
+    {
+      "id": "seguridad-ambiente-inclusion",
+      "indexLabel": "04 / 04",
+      "title": "Seguridad, Ambiente e Inclusion",
+      "description": "Vigilancia 24/7, proteccion del Rio Pirai y acuiferos, gestion moderna de residuos y atencion especializada para personas con discapacidad.",
+      "accentColor": "#F2A7C6"
+    }
+  ],
+  "proposals": {
+    "badge": "B Nuestras Propuestas",
+    "title": "9 Propuestas para un Porongo Moderno, Productivo y Seguro",
+    "subtitle": "Contenido basado en el plan presentado: gestion, transparencia y resultados para cada familia de Porongo.",
+    "tabs": [
+      {
+        "key": "alcaldia",
+        "label": "Alcaldia y Cero Corrupcion"
+      },
+      {
+        "key": "trabajo",
+        "label": "Trabajo y Prioridad Local"
+      },
+      {
+        "key": "planificacion",
+        "label": "Planificacion y Empleo"
+      },
+      {
+        "key": "salud",
+        "label": "Salud y Educacion"
+      },
+      {
+        "key": "obras",
+        "label": "Obras y Transporte"
+      },
+      {
+        "key": "seguridad",
+        "label": "Seguridad 24/7"
+      },
+      {
+        "key": "turismo",
+        "label": "Turismo, Cultura y Deporte"
+      },
+      {
+        "key": "entorno",
+        "label": "Proteccion del Entorno"
+      },
+      {
+        "key": "inclusion",
+        "label": "Inclusion y Discapacidad"
+      }
+    ],
+    "items": {
+      "alcaldia": {
+        "slug": "alcaldia-en-tu-barrio",
+        "category": "Propuesta 01",
+        "title": "Alcaldia en tu Barrio y Cero Corrupcion",
+        "summary": "Abriremos subalcaldias en Urubo, Santa Fe y Los Batos, fortaleceremos Terebinto, construiremos edificio municipal propio y digitalizaremos tramites para eliminar filas y extorsion.",
+        "impacts": [
+          "Subalcaldias activas en 4 zonas clave",
+          "Edificio municipal propio para ahorrar alquileres",
+          "Gestion digital para reducir burocracia"
+        ],
+        "cta": "Conocer propuesta",
+        "image": {
+          "src": "/images/pro1.jpg",
+          "alt": "Gestion municipal cercana para los barrios de Porongo",
+          "width": 500,
+          "height": 520
+        }
+      },
+      "trabajo": {
+        "slug": "trabajo-para-nuestra-gente",
+        "category": "Propuesta 02",
+        "title": "Trabajo y Prioridad para Nuestra Gente",
+        "summary": "Garantizaremos prioridad laboral para poronguenos en municipalidad y servicios publicos, para que los ingresos se queden en el municipio y fortalezcan la economia local.",
+        "impacts": [
+          "Prioridad laboral para mano de obra local",
+          "Mas ingresos circulando en comercios de Porongo",
+          "Impulso directo a negocios y mercados locales"
+        ],
+        "cta": "Conocer propuesta",
+        "image": {
+          "src": "/images/pro2.jpg",
+          "alt": "Impulso al empleo local y economia productiva",
+          "width": 500,
+          "height": 520
+        }
+      },
+      "planificacion": {
+        "slug": "planificacion-turismo-empleo",
+        "category": "Propuesta 03",
+        "title": "Planificacion, Turismo y Empleo",
+        "summary": "Promoveremos crecimiento urbano ordenado con planificacion tecnica y un enfoque productivo que fortalezca agro, turismo y cadenas locales como achachairu, miel, citricos y cafe.",
+        "impacts": [
+          "Desarrollo urbano estrategico y ordenado",
+          "Mas inversion y empleo directo",
+          "Fortalecimiento de productos locales con enfoque de mercado"
+        ],
+        "cta": "Conocer propuesta",
+        "image": {
+          "src": "/images/pro3.jpg",
+          "alt": "Planificacion urbana y desarrollo productivo en Porongo",
+          "width": 500,
+          "height": 520
+        }
+      },
+      "salud": {
+        "slug": "salud-y-educacion-de-calidad",
+        "category": "Propuesta 04",
+        "title": "Salud y Educacion de Calidad",
+        "summary": "Destinaremos 15% para salud con sala de dialisis, gestion para Hospital de 2do Nivel y citas online; ademas, bachillerato tecnico y centro municipal para adulto mayor.",
+        "impacts": [
+          "Mejor atencion de salud y menos filas",
+          "Formacion tecnica para jovenes",
+          "Atencion digna y apoyo permanente al adulto mayor"
+        ],
+        "cta": "Conocer propuesta",
+        "image": {
+          "src": "/images/Salud.jpg",
+          "alt": "Servicios de salud y educacion para la comunidad",
+          "width": 500,
+          "height": 520
+        }
+      },
+      "obras": {
+        "slug": "obras-y-transporte-inteligente",
+        "category": "Propuesta 05",
+        "title": "Obras y Transporte Inteligente",
+        "summary": "Impulsaremos alcantarillado y plantas de tratamiento, ejecucion vial por tramos entre Los Batos, Tres Cruces y Terebinto, y paradas seguras con iluminacion y asientos.",
+        "impacts": [
+          "Saneamiento basico para Urubo y Porongo",
+          "Conectividad vial en rutas estrategicas",
+          "Paradas seguras dentro de un sistema de movilidad moderna"
+        ],
+        "cta": "Conocer propuesta",
+        "image": {
+          "src": "/images/pro5.jpg",
+          "alt": "Infraestructura vial y transporte inteligente",
+          "width": 500,
+          "height": 520
+        }
+      },
+      "seguridad": {
+        "slug": "seguridad-coordinada-inteligente",
+        "category": "Propuesta 06",
+        "title": "Seguridad Coordinada e Inteligente",
+        "summary": "Crearemos un Consejo de Seguridad Ciudadana con comunidades, policia y municipio, junto a vigilancia 24/7, centro de monitoreo y la app Porongo Segura para auxilio inmediato.",
+        "impacts": [
+          "Coordinacion preventiva entre vecinos y autoridades",
+          "Monitoreo permanente en zonas criticas",
+          "Respuesta rapida mediante tecnologia ciudadana"
+        ],
+        "cta": "Conocer propuesta",
+        "image": {
+          "src": "/images/proposal-seguridad.png",
+          "alt": "Seguridad urbana coordinada y monitoreo constante",
+          "width": 500,
+          "height": 520
+        }
+      },
+      "turismo": {
+        "slug": "turismo-cultura-y-deporte",
+        "category": "Propuesta 07",
+        "title": "Turismo, Cultura y Deporte",
+        "summary": "Fortaleceremos la Secretaria de Deporte y Turismo con agenda cultural permanente, impulso a gastronomia y rutas religiosas, y modernizacion de campos y escuelas deportivas.",
+        "impacts": [
+          "Promocion turistica y cultural durante todo el ano",
+          "Masificacion del deporte municipal",
+          "Apoyo al talento local en eventos competitivos"
+        ],
+        "cta": "Conocer propuesta",
+        "image": {
+          "src": "/images/pro7.jpg",
+          "alt": "Agenda cultural, turismo y desarrollo deportivo",
+          "width": 500,
+          "height": 520
+        }
+      },
+      "entorno": {
+        "slug": "proteccion-del-entorno",
+        "category": "Propuesta 08",
+        "title": "Proteccion de Nuestro Entorno",
+        "summary": "Aplicaremos proteccion estricta del Rio Pirai, acuiferos, parques y reservas; ademas, gestion moderna de residuos con puntos verdes y regulacion de extraccion de aridos.",
+        "impacts": [
+          "Defensa activa de ecosistemas clave de Porongo",
+          "Puntos verdes y estaciones de transferencia",
+          "Mayor control ambiental para proteger el futuro"
+        ],
+        "cta": "Conocer propuesta",
+        "image": {
+          "src": "/images/pro8.jpg",
+          "alt": "Cuidado ambiental y proteccion del Rio Pirai",
+          "width": 500,
+          "height": 520
+        }
+      },
+      "inclusion": {
+        "slug": "inclusion-y-discapacidad",
+        "category": "Propuesta 09",
+        "title": "Inclusion y Discapacidad",
+        "summary": "Realizaremos censo municipal y atencion especializada para garantizar infraestructura 100% accesible y servicios de salud adecuados para personas con discapacidad.",
+        "impacts": [
+          "Municipio con enfoque real de accesibilidad",
+          "Atencion medica especializada",
+          "Politicas publicas basadas en censo local actualizado"
+        ],
+        "cta": "Conocer propuesta",
+        "image": {
+          "src": "/images/proposal-educacion.jpeg",
+          "alt": "Inclusion social y atencion para personas con discapacidad",
+          "width": 500,
+          "height": 520
+        }
+      }
+    }
+  },
+  "finalCta": {
+    "badge": "B Sumate al Cambio",
+    "title": "Gestion honesta y resultados para Porongo",
+    "description": "Tu apoyo es clave para llevar estas 9 propuestas del papel a la realidad en cada barrio del municipio.",
+    "primary": "Apoya a Marisol",
+    "secondary": "Comparte el Mensaje"
+  },
+  "footer": {
+    "left": "Modernidad Nacional - Marisol Negrete Alcaldesa 2026-2031",
+    "right": "(c) 2026 Porongo"
+  }
 }
- 

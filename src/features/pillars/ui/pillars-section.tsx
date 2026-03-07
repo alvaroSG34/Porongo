@@ -9,12 +9,6 @@ type PillarsSectionProps = {
 
 const accentPalette = ["#F20587", "#F2CB05", "#F24BB2", "#F2A7C6"];
 const impactLabels = ["Impacto Alto", "Impacto Economico", "Impacto Social", "Impacto Ambiental"];
-const shortPhrases = [
-  "Ciudad ordenada y planificada",
-  "Mas empleo, mas oportunidades",
-  "Calidad para cada barrio",
-  "Ambiente limpio y protegido"
-];
 
 function PillarCard({ pillar, index }: { pillar: LandingContent["pillars"][number]; index: number }) {
   const reduceMotion = useReducedMotion();
@@ -50,7 +44,7 @@ function PillarCard({ pillar, index }: { pillar: LandingContent["pillars"][numbe
         {pillar.title}
       </h3>
 
-      <p className="mt-3 text-[15px] font-medium text-textMuted sm:text-[16px] lg:text-[17px]">{shortPhrases[index]}</p>
+      <p className="mt-3 text-[15px] font-medium text-textMuted sm:text-[16px] lg:text-[17px]">{pillar.description}</p>
 
       <motion.div
         className="mt-6 h-1 w-16 origin-left rounded-full"
